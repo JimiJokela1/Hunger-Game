@@ -6,12 +6,17 @@ using UnityEngine;
 public class GrandmaMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
+    public float jumpDistance = 3f;
+    public float jumpTime = 1f;
     public AudioSource moveAudioSource;
+    public AudioSource jumpAudioSource;
 
-    private Vector2 currentInput;
+    private Vector2 currentMovementInput;
     private Rigidbody2D rb;
 
     private Animator animator;
+
+    private bool jumping = false;
 
     private void Awake()
     {
@@ -19,7 +24,7 @@ public class GrandmaMovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private Vector2 GetInput()
+    private Vector2 GetMovementInput()
     {
         Vector2 input = new Vector2();
         input.x = Input.GetAxis("Horizontal");
@@ -27,20 +32,26 @@ public class GrandmaMovement : MonoBehaviour
         return Vector2.ClampMagnitude(input, 1f);
     }
 
+    private bool GetJumpInput()
+    {
+        return Input.GetButtonDown("Jump");
+    }
+
     private void Update()
     {
-        currentInput = GetInput();
+        currentMovementInput = GetMovementInput();
     }
 
     private void FixedUpdate()
     {
-        if (currentInput != null && currentInput != Vector2.zero)
+        // Movement
+        if (currentMovementInput != null && currentMovementInput != Vector2.zero)
         {
             // Move with momentum
             // rb.AddForce(currentInput * moveSpeed, ForceMode2D.Force);
-            
+
             // Move without momentum
-            rb.MovePosition(rb.position + currentInput * moveSpeed * Time.fixedDeltaTime);
+            rb.MovePosition(rb.position + currentMovementInput * moveSpeed * Time.fixedDeltaTime);
 
             // Set move animation
             if (animator != null)
@@ -53,20 +64,64 @@ public class GrandmaMovement : MonoBehaviour
             {
                 moveAudioSource.Play();
             }
+
+            // Jumping, can only jump when moving
+            if (GetJumpInput() && jumping == false)
+            {
+                TryJumpOverCollider(currentMovementInput.normalized);
+            }
         }
         else // not moving
         {
-            // Set move animation
+            StopMoving();
+        }
+    }
+
+    private void TryJumpOverCollider(Vector2 direction)
+    {
+        LayerMask layerMask = ~(1 << LayerMask.NameToLayer("Player"));
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, jumpDistance, layerMask);
+
+        if (hit.collider != null)
+        {
+            jumping = true;
+            StopMoving();
+
+            // Set jump animation
             if (animator != null)
             {
-                animator.SetBool("Moving", false);
+                animator.SetBool("Jumping", true);
             }
-            
-            // Set move sound
-            if (moveAudioSource != null && moveAudioSource.isPlaying)
+
+            // Play jump sound
+            if (jumpAudioSource != null)
             {
-                moveAudioSource.Stop();
+                jumpAudioSource.Play();
             }
+
+            StartCoroutine(JumpSequence(direction));
+        }
+    }
+
+    IEnumerator JumpSequence(Vector2 direction)
+    {
+        yield return new WaitForSeconds(jumpTime);
+        rb.position = (rb.position + direction * jumpDistance);
+        jumping = false;
+    }
+
+    private void StopMoving()
+    {
+        // Set move animation
+        if (animator != null)
+        {
+            animator.SetBool("Moving", false);
+        }
+
+        // Set move sound
+        if (moveAudioSource != null && moveAudioSource.isPlaying)
+        {
+            moveAudioSource.Stop();
         }
     }
 }
