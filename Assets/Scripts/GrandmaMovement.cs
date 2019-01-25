@@ -6,13 +6,17 @@ using UnityEngine;
 public class GrandmaMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
+    public AudioSource moveAudioSource;
 
     private Vector2 currentInput;
     private Rigidbody2D rb;
 
+    private Animator animator;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private Vector2 GetInput()
@@ -30,10 +34,39 @@ public class GrandmaMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (currentInput != null)
+        if (currentInput != null && currentInput != Vector2.zero)
         {
+            // Move with momentum
             // rb.AddForce(currentInput * moveSpeed, ForceMode2D.Force);
+            
+            // Move without momentum
             rb.MovePosition(rb.position + currentInput * moveSpeed * Time.fixedDeltaTime);
+
+            // Set move animation
+            if (animator != null)
+            {
+                animator.SetBool("Moving", true);
+            }
+
+            // Set move sound
+            if (moveAudioSource != null && !moveAudioSource.isPlaying)
+            {
+                moveAudioSource.Play();
+            }
+        }
+        else // not moving
+        {
+            // Set move animation
+            if (animator != null)
+            {
+                animator.SetBool("Moving", false);
+            }
+            
+            // Set move sound
+            if (moveAudioSource != null && moveAudioSource.isPlaying)
+            {
+                moveAudioSource.Stop();
+            }
         }
     }
 }
