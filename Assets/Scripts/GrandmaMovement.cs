@@ -5,6 +5,16 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class GrandmaMovement : MonoBehaviour
 {
+
+	static GrandmaMovement _instance;
+	public static GrandmaMovement Instance
+	{
+		get
+		{
+			return _instance = _instance ?? FindObjectOfType<GrandmaMovement>();
+		}
+	}
+
     public float moveSpeed = 1f;
 
     private Vector2 currentInput;

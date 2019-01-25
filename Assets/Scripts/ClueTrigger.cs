@@ -32,6 +32,9 @@ public class ClueTrigger : MonoBehaviour
 
 		Debug.Log("Trigger clue to non-interactive mode so it doesn't trigger even if player input is 'E'");
 		isTriggeable = false;
+
+		// Hide whatever clue was shown when exiting the area
+		SpeechArea.Instance.HideText();
 	}
 
 	void PlayerInteraction()
@@ -40,8 +43,14 @@ public class ClueTrigger : MonoBehaviour
 			return;
 
 		Debug.Log(ClueText);
-		// TODO: Show clue
-		// ShowClue(ClueText);
+		SpeechArea.Instance.ShowText(ClueText);
 	}
 
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.E))
+		{
+			PlayerInteraction();
+		}
+	}
 }
