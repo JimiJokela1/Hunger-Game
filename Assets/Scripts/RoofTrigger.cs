@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class RoofTrigger : MonoBehaviour {
 
-	public AudioClip environmentAudio;
 	public Renderer environmentRoof;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -19,7 +13,6 @@ public class RoofTrigger : MonoBehaviour {
 			return;
 
 		environmentRoof.enabled = false;
-		//environmentAudio.Play()
 	}
 
 	void OnTriggerExit2D(Collider2D other)
