@@ -15,6 +15,8 @@ public class Child : MonoBehaviour
 
 	bool isTriggeable = false;
 
+    public bool childIsGrounded;
+
 	/// <summary>
 	/// Child can be hiding (normally), or can be carried by Grandma or returned to Home (waiting for escape).
 	/// </summary>

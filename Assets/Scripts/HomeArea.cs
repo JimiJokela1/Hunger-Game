@@ -14,7 +14,9 @@ public class HomeArea : MonoBehaviour
 
 		if (GrandmaMovement.Instance.Properties.CarriesChild)
 		{
+
 			// TODO: Return the carried children and play sounds
+            // TODO: Give a small bonus to the player --> Fill the hunger bar by x amount
 		}
 	}
 
