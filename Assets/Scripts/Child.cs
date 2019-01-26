@@ -32,7 +32,7 @@ public class Child : MonoBehaviour
 	/// <summary>
 	/// Changing child state automatically sets the proper tilemap graphic for the square
 	/// </summary>
-	ChildState childState
+	public ChildState childState
 	{
 		get {
 			return _childState;
@@ -59,6 +59,12 @@ public class Child : MonoBehaviour
 		Debug.Log("Collision with " + collision);
 		if (collision.gameObject.tag != "Player")
 			return;
+
+		// Don't do anything if child is not hiding here
+		if (childState != ChildState.Hiding)
+		{
+			return;
+		}
 
 		// If grandma already got us, try to activate again
 		if (GrandmaMovement.Instance.Properties.carriedChildren.Contains(this))
