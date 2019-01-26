@@ -31,9 +31,9 @@ public class SkillsHandler : MonoBehaviour
 
         foreach (GameObject child in ChildManager.childManager.allChildren)
         {
-            if (child != null && Vector3.Distance(child.transform.position, this.transform.position) <= grandmaSenseRange)
+            if (child != null && Vector3.Distance(child.GetComponent<Child>().childWorldPosition.position, this.transform.position) <= grandmaSenseRange)
             {
-                target = child.transform;
+                target = child.GetComponent<Child>().childWorldPosition;
 
                 Debug.Log("My Grandma sense in tingling!!!");
                 //TODO: Show a visual indicator that the kid is close

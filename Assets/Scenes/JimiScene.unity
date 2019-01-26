@@ -331,7 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canUseGrandmaSenseSkill: 0
   hasUsedGroundingSkill: 0
-  grandmaSenseRange: 0
+  grandmaSenseRange: 10
 --- !u!1 &1084379082
 GameObject:
   m_ObjectHideFlags: 0
