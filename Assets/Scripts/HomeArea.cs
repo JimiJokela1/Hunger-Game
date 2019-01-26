@@ -26,11 +26,10 @@ public class HomeArea : MonoBehaviour
 			// Remove kids from grandma
 			GrandmaMovement.Instance.Properties.carriedChildren.Clear();
 
+			// Give a small bonus to the player --> Fill the hunger bar by x amount
             var hungerBar = FindObjectOfType<HungerBar>();
             hungerBar.currentValue += hungerBar.hungerBonusValue;
             hungerBar.SetValue(hungerBar.currentValue, hungerBar.maxValue);
-			// TODO:  and play sounds
-			// TODO: Give a small bonus to the player --> Fill the hunger bar by x amount
 
 			// Show text to player saying you brough home children
 			string message = "Grandma brought home and fed ";
@@ -67,7 +66,6 @@ public class HomeArea : MonoBehaviour
         // Change to different Audio environment...(?)
 
 		// Hide message for bringing children home
-
 		SpeechArea.Instance.HideText();
 
         if(ChildManager.childManager.childrenAtHome.Count > 0 && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
