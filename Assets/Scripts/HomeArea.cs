@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HomeArea : MonoBehaviour
 {
-
+	private List<Child> childrenAtHome = new List<Child>();
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -14,8 +14,20 @@ public class HomeArea : MonoBehaviour
 
 		if (GrandmaMovement.Instance.Properties.CarriesChild)
 		{
+			Debug.Log("Grandma brought home children");
 
-			// TODO: Return the carried children and play sounds
+			// Return the carried children
+			childrenAtHome.AddRange(GrandmaMovement.Instance.Properties.carriedChildren);
+			foreach(Child child in childrenAtHome)
+			{
+				child.childState = Child.ChildState.AtHome;
+			}
+
+			// Remove kids from grandma
+			GrandmaMovement.Instance.Properties.carriedChildren.Clear();
+			
+
+			// TODO:  and play sounds
             // TODO: Give a small bonus to the player --> Fill the hunger bar by x amount
 		}
 	}
@@ -30,5 +42,18 @@ public class HomeArea : MonoBehaviour
 		// Change to different Audio environment...(?)
 
 		// TODO: Trigger countdown for children escaping(?)
+	}
+
+	/// <summary>
+	/// Removes all children from home and resets them to hiding in their hidey-holes
+	/// </summary>
+	public void ReleaseChildren()
+	{
+		foreach(Child child in childrenAtHome)
+		{
+			child.childState = Child.ChildState.Hiding;
+		}
+
+		childrenAtHome.Clear();
 	}
 }
