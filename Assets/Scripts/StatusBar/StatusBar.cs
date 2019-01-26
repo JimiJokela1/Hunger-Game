@@ -18,7 +18,7 @@ public class StatusBar : MonoBehaviour
 
     public float childModifier;
     public float maxValue;
-    float changedValuePerFrame;
+    //float changedValuePerFrame;
     internal float currentValue;
 
     internal bool timerIsRunning;
@@ -41,14 +41,14 @@ public class StatusBar : MonoBehaviour
         SetValue(currentValue, maxValue);
     }
 
-    public virtual void Update()
-    {
-        if (!timerIsRunning)
-            return;
+    //public virtual void Update()
+    //{
+    //    if (!timerIsRunning)
+    //        return;
         
-        ChangeValue(changedValuePerFrame);
-        SetValue(currentValue, maxValue);
-    }
+    //    ChangeValue(changedValuePerFrame);
+    //    SetValue(currentValue, maxValue);
+    //}
 
     /// <summary>
     /// Adds the passed value to the current value of the slider. To decrease the value pass negative number

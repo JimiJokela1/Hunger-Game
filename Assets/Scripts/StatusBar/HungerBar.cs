@@ -13,12 +13,13 @@ public class HungerBar : StatusBar
         timerIsRunning = true;
     }
 
-    public override void Update()
+    void Update()
     {
         if (!timerIsRunning)
             return;
 
-        ChangeValue(ChangedValuePerFrame());
+        ChangeValue(-ChangedValuePerFrame());
+        Debug.Log("___________" + ChangedValuePerFrame());
         SetValue(currentValue, maxValue);
     }
 

@@ -10,7 +10,7 @@ public class DisciplineBar : StatusBar
         timerIsRunning = false;
     }
 
-    public override void Update()
+    void Update()
     {
         if (!timerIsRunning)
             return;
