@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HomeArea : MonoBehaviour
 {
-	private List<Child> childrenAtHome = new List<Child>();
+	//private List<Child> childrenAtHome = new List<Child>();
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -17,43 +17,52 @@ public class HomeArea : MonoBehaviour
 			Debug.Log("Grandma brought home children");
 
 			// Return the carried children
-			childrenAtHome.AddRange(GrandmaMovement.Instance.Properties.carriedChildren);
-			foreach(Child child in childrenAtHome)
+			ChildManager.childManager.childrenAtHome.AddRange(GrandmaMovement.Instance.Properties.carriedChildren);
+			foreach(Child child in ChildManager.childManager.childrenAtHome)
 			{
 				child.childState = Child.ChildState.AtHome;
 			}
 
 			// Remove kids from grandma
 			GrandmaMovement.Instance.Properties.carriedChildren.Clear();
-			
 
-			// TODO:  and play sounds
-            // TODO: Give a small bonus to the player --> Fill the hunger bar by x amount
-		}
-	}
+            var hungerBar = FindObjectOfType<HungerBar>();
+            hungerBar.currentValue += 20;
+            hungerBar.SetValue(hungerBar.currentValue, hungerBar.maxValue);
 
-	void OnTriggerExit2D(Collider2D other)
+
+            // TODO:  and play sounds
+        }
+
+        //  If there are children in the house, set the discipline to Max
+        if (ChildManager.childManager.childrenAtHome.Count > 0)
+        {
+            var disciplineBar = FindObjectOfType<DisciplineBar>();
+            disciplineBar.timerIsRunning = false;
+            disciplineBar.currentValue = disciplineBar.maxValue;
+            disciplineBar.SetValue(disciplineBar.currentValue, disciplineBar.maxValue);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
 	{
 		Debug.Log("Home Exit by " + other);
 
 		if (other.tag != "Player")
 			return;
 
-		// Change to different Audio environment...(?)
+        // Change to different Audio environment...(?)
 
-		// TODO: Trigger countdown for children escaping(?)
-	}
 
-	/// <summary>
-	/// Removes all children from home and resets them to hiding in their hidey-holes
-	/// </summary>
-	public void ReleaseChildren()
-	{
-		foreach(Child child in childrenAtHome)
-		{
-			child.childState = Child.ChildState.Hiding;
-		}
+        // TODO: Trigger countdown for children escaping(?)
 
-		childrenAtHome.Clear();
-	}
+        if(ChildManager.childManager.childrenAtHome.Count > 0 && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
+        {
+            FindObjectOfType<DisciplineBar>().timerIsRunning = true;
+            Debug.LogWarning("As it is now, grounding the kids will freeze the discipline bar forever");
+        }
+
+    }
+
+
 }

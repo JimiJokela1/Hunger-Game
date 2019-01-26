@@ -6,7 +6,6 @@ using UnityEngine.UI;
 /// </summary>
 public class StatusBar : MonoBehaviour
 {
-
     [SerializeField]
     private RectTransform healthBar;
 
@@ -20,16 +19,16 @@ public class StatusBar : MonoBehaviour
 
     public float maxValue;
     public float changedValuePerFrame;
-    private float currentValue;
+    internal float currentValue;
 
-    public bool timerIsRunning;
+    internal bool timerIsRunning;
     public bool enableDescription;
     public bool enableTestingButton;
 
     public GameObject description;
     public GameObject testButtonGo;
 
-    void Start()
+    public virtual void Start()
     {
         description.SetActive(enableDescription ? true : false);
 
@@ -42,7 +41,7 @@ public class StatusBar : MonoBehaviour
         SetValue(currentValue, maxValue);
     }
 
-    private void Update()
+    public virtual void Update()
     {
         if (!timerIsRunning)
             return;
@@ -54,24 +53,19 @@ public class StatusBar : MonoBehaviour
     /// <summary>
     /// Adds the passed value to the current value of the slider. To decrease the value pass negative number
     /// </summary>
-    public void ChangeValue(float changedAmount)
+    public virtual void ChangeValue(float changedAmount)
     {
         currentValue = Mathf.Clamp(currentValue, 0, maxValue);
         currentValue += changedAmount;
         SetValue(currentValue, maxValue);
     }
 
-    public void SetValue(float cur, float max)
+    public virtual void SetValue(float cur, float max)
     {
-        
         float value = cur / max;
 
         //  Change the localscale on the x axis
         healthBar.localScale = new Vector3(value, healthBar.localScale.y, healthBar.localScale.z);
-
-        
-
-
     }
 
 }

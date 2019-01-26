@@ -9,12 +9,12 @@ public class GrandmaProperties : MonoBehaviour
 	/// </summary>
 	public List<Child> carriedChildren;
 
-    public GrandmaStats grandmaStats;
+    public int score;
+
 
 	private void Awake()
 	{
 		carriedChildren = new List<Child>();
-        grandmaStats = new GrandmaStats();
     }
 
     /// <summary>
@@ -26,31 +26,4 @@ public class GrandmaProperties : MonoBehaviour
 	}
 }
 
-[System.Serializable]
-public class GrandmaStats
-{
-    public int score;
-    public bool canUseGrandmaSenseSkill;
-    //public GrandmaSenseSkill grandmaSenseSkill;
-    //public GroundingSkill groundSkill;
-    //public LeapOfFaith leapOfFaith;
-}
 
-
-//[System.Serializable]
-//public class GrandmaSenseSkill
-//{
-//    public bool canUse;
-//}
-
-//[System.Serializable]
-//public class GroundingSkill
-//{
-//    public bool canUse;
-//}
-
-//[System.Serializable]
-//public class LeapOfFaith
-//{
-//    public bool canUse;
-//}

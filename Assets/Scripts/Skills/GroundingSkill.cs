@@ -10,15 +10,10 @@ public class GroundingSkill : Skill
         skillIsPassive = false;
     }
 
-    public override void Update()
-    {
-        base.Update();
-    }
-
     public override void ActivateSkill()
     {
         base.ActivateSkill();
-        SkillsHandler.skillsHandler.GroundCollectedChildren();
 
+        SkillsHandler.skillsHandler.GroundCollectedChildren();
     }
 }

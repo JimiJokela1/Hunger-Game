@@ -7,7 +7,7 @@ public class SkillsHandler : MonoBehaviour
     public static SkillsHandler skillsHandler;
 
     public bool canUseGrandmaSenseSkill;
-    public bool canUseGroundingSkill;
+    public bool hasUsedGroundingSkill;
 
     public float grandmaSenseRange;
 
@@ -49,6 +49,9 @@ public class SkillsHandler : MonoBehaviour
 
     public void GroundCollectedChildren()
     {
-        // Ground collected children
+        if (hasUsedGroundingSkill)
+            return;
+
+        hasUsedGroundingSkill = true;
     }
 }
