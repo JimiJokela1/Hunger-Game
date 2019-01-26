@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(GrandmaProperties))]
 public class GrandmaMovement : MonoBehaviour
 {
 
@@ -13,6 +13,12 @@ public class GrandmaMovement : MonoBehaviour
 		{
 			return _instance = _instance ?? FindObjectOfType<GrandmaMovement>();
 		}
+	}
+
+	private GrandmaProperties _properties;
+	public GrandmaProperties Properties
+	{
+		get { return _properties = _properties ?? GetComponent<GrandmaProperties>(); }
 	}
 
     public float moveSpeed = 1f;
