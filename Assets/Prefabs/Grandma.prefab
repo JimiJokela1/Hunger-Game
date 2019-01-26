@@ -130,9 +130,10 @@ Transform:
   m_GameObject: {fileID: 2936177139197118820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.2949, y: 3.2949, z: 3.2949}
   m_Children:
   - {fileID: 1355808363}
+  - {fileID: 9009821571500566454}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -196,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce0086bcf99fb44abdd09b10ba7a9c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 5
   jumpDistance: 0.5
   jumpTime: 0
   moveAudioSource: {fileID: 1390687713859730440}
@@ -213,6 +214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f960d0145340965468c1cd5027e6f977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carriedChildren: []
+  grandmaStats:
+    score: 0
+    canUseGrandmaSenseSkill: 0
 --- !u!50 &2936177139197118824
 Rigidbody2D:
   serializedVersion: 4
@@ -298,7 +303,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2936177139197118822}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1390687713859730440
 AudioSource:

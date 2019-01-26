@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundSystem : MonoBehaviour
 {
 	public AudioSource backgroundMusic;
+
+	public AudioMixer audioMixer;
 
 	private static SoundSystem _instance;
 	public static SoundSystem Instance {
