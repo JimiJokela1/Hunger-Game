@@ -214,7 +214,7 @@ RectTransform:
   - {fileID: 1026300022426963897}
   - {fileID: 1447233670}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1006,23 +1006,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 510554549, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481, type: 3}
-      propertyPath: timerIsRunning
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 510554549, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481, type: 3}
-      propertyPath: enableDescription
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1614180924, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1997828183423856468, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481,
-        type: 3}
-      propertyPath: m_Text
-      value: Hunger
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481, type: 3}
 --- !u!1 &1619689421
@@ -1297,7 +1280,7 @@ GameObject:
   - component: {fileID: 2101132311}
   - component: {fileID: 2101132313}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: _Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1329,7 +1312,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2101132313
 MonoBehaviour:

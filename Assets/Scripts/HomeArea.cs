@@ -27,7 +27,7 @@ public class HomeArea : MonoBehaviour
 			GrandmaMovement.Instance.Properties.carriedChildren.Clear();
 
             var hungerBar = FindObjectOfType<HungerBar>();
-            hungerBar.currentValue += 20;
+            hungerBar.currentValue += hungerBar.hungerBonusValue;
             hungerBar.SetValue(hungerBar.currentValue, hungerBar.maxValue);
 			// TODO:  and play sounds
 			// TODO: Give a small bonus to the player --> Fill the hunger bar by x amount

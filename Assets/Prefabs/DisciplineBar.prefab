@@ -224,7 +224,6 @@ MonoBehaviour:
   sliderImg: {fileID: 3723666927507950529}
   maxValue: 100
   changedValuePerFrame: -0.1
-  timerIsRunning: 1
   enableDescription: 1
   enableTestingButton: 0
   description: {fileID: 8430836483308839251}

@@ -244,11 +244,11 @@ MonoBehaviour:
   sliderImg: {fileID: 199756120}
   maxValue: 100
   changedValuePerFrame: -0.01
-  timerIsRunning: 0
-  enableDescription: 1
+  enableDescription: 0
   enableTestingButton: 0
   description: {fileID: 595671336426139294}
   testButtonGo: {fileID: 1614180922}
+  hungerBonusValue: 20
 --- !u!1 &1434413816
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,4 +535,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Status
+  m_Text: Hunger

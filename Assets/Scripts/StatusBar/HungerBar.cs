@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HungerBar : StatusBar
 {
+    public float hungerBonusValue;
+
     public override void Start()
     {
         base.Start();
