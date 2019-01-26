@@ -15,7 +15,7 @@ public class HomeArea : MonoBehaviour
 		if (GrandmaMovement.Instance.Properties.CarriesChild)
 		{
 			Debug.Log("Grandma brought home children");
-			
+
 			// Return the carried children
 			childrenAtHome.AddRange(GrandmaMovement.Instance.Properties.carriedChildren);
 			foreach(Child child in childrenAtHome)
@@ -42,5 +42,18 @@ public class HomeArea : MonoBehaviour
 		// Change to different Audio environment...(?)
 
 		// TODO: Trigger countdown for children escaping(?)
+	}
+
+	/// <summary>
+	/// Removes all children from home and resets them to hiding in their hidey-holes
+	/// </summary>
+	public void ReleaseChildren()
+	{
+		foreach(Child child in childrenAtHome)
+		{
+			child.childState = Child.ChildState.Hiding;
+		}
+
+		childrenAtHome.Clear();
 	}
 }
