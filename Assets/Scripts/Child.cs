@@ -13,6 +13,8 @@ public class Child : MonoBehaviour
 	public TilemapRenderer HidingTilemap;
 	public TilemapRenderer CarriedTilemap;
 
+	public Transform childWorldPosition;
+
 	bool isTriggeable = false;
 
     public bool childIsGrounded;
