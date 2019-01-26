@@ -19,8 +19,9 @@ public class HomeArea : MonoBehaviour
 			Debug.Log("Grandma brought home children");
 
 			// Return the carried children
-			ChildManager.childManager.childrenAtHome.AddRange(GrandmaMovement.Instance.Properties.carriedChildren);
-			foreach(Child child in ChildManager.childManager.childrenAtHome)
+			List<Child> childrenReturned = new List<Child>(GrandmaMovement.Instance.Properties.carriedChildren);
+			ChildManager.childManager.childrenAtHome.AddRange(childrenReturned);
+			foreach(Child child in childrenReturned)
 			{
 				child.childState = Child.ChildState.AtHome;
 			}
@@ -35,10 +36,10 @@ public class HomeArea : MonoBehaviour
 
 			// Show text to player saying you brough home children
 			string message = "Grandma brought home and fed ";
-			for (int i = 0; i < ChildManager.childManager.childrenAtHome.Count; i++)
+			for (int i = 0; i < childrenReturned.Count; i++)
 			{
-				message += ChildManager.childManager.childrenAtHome[i].ID;
-				if (i + 1 < ChildManager.childManager.childrenAtHome.Count)
+				message += childrenReturned[i].ID;
+				if (i + 1 < childrenReturned.Count)
 				{
 					message += ", ";
 				}

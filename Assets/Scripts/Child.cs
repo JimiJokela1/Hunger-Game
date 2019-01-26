@@ -13,7 +13,10 @@ public class Child : MonoBehaviour
 	public TilemapRenderer HidingTilemap;
 	public TilemapRenderer CarriedTilemap;
 
+	[Header("World position")]
 	public Transform childWorldPosition;
+	[Header("Dialogue showed when child is found and grabbed")]
+	public string messageWhenFound;
 
 	bool isTriggeable = false;
 
@@ -89,6 +92,8 @@ public class Child : MonoBehaviour
 
 		Debug.Log("Trigger Child " + ID + " to non-interactive mode so it doesn't trigger even if player input is 'E'");
 		isTriggeable = false;
+
+		SpeechArea.Instance.HideText();
 	}
 
 	void PlayerInteraction()
@@ -103,6 +108,8 @@ public class Child : MonoBehaviour
 		isTriggeable = false;
 
 		GrandmaMovement.Instance.Properties.carriedChildren.Add(this);
+
+		SpeechArea.Instance.ShowText(messageWhenFound);
 	}
 
 	private void Update()
