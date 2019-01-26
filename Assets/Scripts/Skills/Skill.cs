@@ -21,11 +21,6 @@ public class Skill : MonoBehaviour
         //  Do something
     }
 
-    public virtual void Update()
-    {
-        if (!skillIsPassive)
-            return;
-    }
 
 
 }
