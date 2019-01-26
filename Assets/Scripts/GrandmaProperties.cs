@@ -11,6 +11,8 @@ public class GrandmaProperties : MonoBehaviour
 
     public int score;
 
+    public bool grandmaIsAtHome;
+
 
 	private void Awake()
 	{

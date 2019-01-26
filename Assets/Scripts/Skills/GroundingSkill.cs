@@ -12,8 +12,9 @@ public class GroundingSkill : Skill
 
     public override void ActivateSkill()
     {
-        base.ActivateSkill();
-
-        SkillsHandler.skillsHandler.GroundCollectedChildren();
+        if (FindObjectOfType<GrandmaProperties>().grandmaIsAtHome)
+        {
+            SkillsHandler.skillsHandler.GroundCollectedChildren();
+        }
     }
 }

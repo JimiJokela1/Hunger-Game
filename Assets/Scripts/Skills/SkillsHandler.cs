@@ -54,6 +54,25 @@ public class SkillsHandler : MonoBehaviour
         if (hasUsedGroundingSkill)
             return;
 
+        bool noUngroundedChildrenAtHome = true;
+        foreach (var child in ChildManager.childManager.childrenAtHome)
+        {
+            if (child.childState != Child.ChildState.Grounded)
+            {
+                noUngroundedChildrenAtHome = false;
+            }
+        }
+
+        if (noUngroundedChildrenAtHome)
+            return;
+
+
+        foreach (var childAtHome in ChildManager.childManager.childrenAtHome)
+        {
+            if (childAtHome.childState != Child.ChildState.Grounded)
+                childAtHome.childState = Child.ChildState.Grounded;
+        }
+
         hasUsedGroundingSkill = true;
     }
 }
