@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
         //  Bad
-        if(SceneManager.GetActiveScene().name == "JimiScene")
+        if(SceneManager.GetActiveScene().name == "Main")
             SceneManager.LoadScene("UI", LoadSceneMode.Additive);
     }
 

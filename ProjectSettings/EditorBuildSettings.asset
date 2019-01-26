@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 15f5d7cb124626d448c726b627793dfd
   - enabled: 1
-    path: Assets/Scenes/JimiScene.unity
+    path: Assets/Scenes/Main.unity
     guid: cabb731750ae48944851db1ceb54754d
   - enabled: 1
     path: Assets/Scenes/UI.unity
