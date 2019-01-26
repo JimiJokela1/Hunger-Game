@@ -18,10 +18,11 @@ public class ChildManager : MonoBehaviour
     void Start()
     {
         childrenAtHome = new List<Child>();
-        var children = FindObjectsOfType<Child>();
 
+
+        var children = FindObjectsOfType<Child>();
         allChildren = new List<GameObject>();
-        foreach (var child in allChildren)
+        foreach (var child in children)
         {
             allChildren.Add(child.gameObject);
         }

@@ -1321,14 +1321,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101132310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afbd83effc2761d4ba6050dd3697a8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canUseGrandmaSenseSkill: 0
   hasUsedGroundingSkill: 0
-  grandmaSenseRange: 0
+  grandmaSenseRange: 100
 --- !u!224 &1026300022426963897 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7438707894199818768, guid: 3688be8bb7cdedd478841641af4a0c8c,

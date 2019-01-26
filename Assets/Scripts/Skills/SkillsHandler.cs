@@ -20,6 +20,7 @@ public class SkillsHandler : MonoBehaviour
 
     private void Start()
     {
+        canUseGrandmaSenseSkill = true;
         InvokeRepeating("FindChild", .5f, .5f);
     }
 
@@ -34,6 +35,7 @@ public class SkillsHandler : MonoBehaviour
             {
                 target = child.transform;
 
+                Debug.Log("My Grandma sense in tingling!!!");
                 //TODO: Show a visual indicator that the kid is close
             }
         }
