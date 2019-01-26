@@ -34,18 +34,15 @@ public class HomeArea : MonoBehaviour
 
 			// Show text to player saying you brough home children
 			string message = "Grandma brought home and fed ";
-			// for (int i = 0; i < ChildManager.childManager.childrenAtHome.Count; i++)
-			// {
-			// 	message += ChildManager.childManager.childrenAtHome[i].ID;
-			// 	if (i + 1 < ChildManager.childManager.childrenAtHome.Count)
-			// 	{
-			// 		message += ", ";
-			// 	}
-			// }
+			for (int i = 0; i < ChildManager.childManager.childrenAtHome.Count; i++)
+			{
+				message += ChildManager.childManager.childrenAtHome[i].ID;
+				if (i + 1 < ChildManager.childManager.childrenAtHome.Count)
+				{
+					message += ", ";
+				}
+			}
 			SpeechArea.Instance.ShowText(message);
-		}
-	}
-
 
             // TODO:  and play sounds
         }
@@ -69,14 +66,9 @@ public class HomeArea : MonoBehaviour
 
         // Change to different Audio environment...(?)
 
-		// TODO: Trigger countdown for children escaping(?)
-
 		// Hide message for bringing children home
 
 		SpeechArea.Instance.HideText();
-	}
-
-        // TODO: Trigger countdown for children escaping(?)
 
         if(ChildManager.childManager.childrenAtHome.Count > 0 && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
         {
