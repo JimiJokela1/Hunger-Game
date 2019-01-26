@@ -7,6 +7,9 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager audioManager;
 
+    public AudioSource audioSource;
+    public AudioClip mainTheme;
+
     void Awake()
     {
         if (audioManager)
@@ -20,9 +23,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeTrack(AudioClip audioClip)
     {
-        
+        audioSource.clip = audioClip;
+        audioSource.Play();
     }
 }

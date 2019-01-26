@@ -9,21 +9,26 @@ using UnityEngine;
 public class AudioArea : MonoBehaviour
 {
 
-	AudioSource environmentAudio;
+	//AudioSource environmentAudio;
+ //   A
 
-	private void Awake()
-	{
-		environmentAudio = GetComponent<AudioSource>();
-	}
+    public AudioClip audioClip;
+
+	//private void Awake()
+	//{
+	//	//environmentAudio = GetComponent<AudioSource>();
+	//}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		Debug.Log(this.GetType().FullName + ": Collision with " + collision);
-		if (collision.tag != "Player")
-			return;
+        AudioManager.audioManager.ChangeTrack(audioClip);
 
-		environmentAudio.Play();
-	}
+        Debug.Log(this.GetType().FullName + ": Collision with " + collision);
+        if (collision.tag != "Player")
+            return;
+
+        //environmentAudio.Play();
+    }
 
 	void OnTriggerExit2D(Collider2D other)
 	{
@@ -32,6 +37,7 @@ public class AudioArea : MonoBehaviour
 		if (other.tag != "Player")
 			return;
 
-		environmentAudio.Stop();
+        AudioManager.audioManager.ChangeTrack(AudioManager.audioManager.mainTheme);
+		//environmentAudio.Stop();
 	}
 }
