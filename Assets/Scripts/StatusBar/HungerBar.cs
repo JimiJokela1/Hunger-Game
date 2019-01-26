@@ -19,7 +19,6 @@ public class HungerBar : StatusBar
             return;
 
         ChangeValue(-ChangedValuePerFrame());
-        Debug.Log("___________" + ChangedValuePerFrame());
         SetValue(currentValue, maxValue);
     }
 
