@@ -12,7 +12,11 @@ public class DisciplineBar : StatusBar
 
     public override void Update()
     {
-        base.Update();
+        if (!timerIsRunning)
+            return;
+
+        ChangeValue(ChangedValuePerFrame());
+        SetValue(currentValue, maxValue);
     }
 
     public override void ChangeValue(float changedAmount)
@@ -23,5 +27,19 @@ public class DisciplineBar : StatusBar
     public override void SetValue(float cur, float max)
     {
         base.SetValue(cur, max);
+    }
+
+
+    public float ChangedValuePerFrame()
+    {
+        float i = 0;
+        foreach (var childAtHome in ChildManager.childManager.childrenAtHome)
+        {
+            if (childAtHome.childState != Child.ChildState.Grounded)
+            {
+                i += childModifier;
+            }
+        }
+        return i;
     }
 }

@@ -12,6 +12,8 @@ public class HomeArea : MonoBehaviour
 		if (collision.tag != "Player")
 			return;
 
+        FindObjectOfType<GrandmaProperties>().grandmaIsAtHome = true;
+
 		if (GrandmaMovement.Instance.Properties.CarriesChild)
 		{
 			Debug.Log("Grandma brought home children");
@@ -63,15 +65,16 @@ public class HomeArea : MonoBehaviour
 		if (other.tag != "Player")
 			return;
 
+        FindObjectOfType<GrandmaProperties>().grandmaIsAtHome = false;
+
         // Change to different Audio environment...(?)
 
-		// Hide message for bringing children home
-		SpeechArea.Instance.HideText();
+        // Hide message for bringing children home
+        SpeechArea.Instance.HideText();
 
-        if(ChildManager.childManager.childrenAtHome.Count > 0 && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
+        if(ChildManager.childManager.childrenAtHome.Count > 0)// && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
         {
             FindObjectOfType<DisciplineBar>().timerIsRunning = true;
-            Debug.LogWarning("As it is now, grounding the kids will freeze the discipline bar forever");
         }
 
     }

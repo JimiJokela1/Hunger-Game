@@ -26,7 +26,8 @@ public class Child : MonoBehaviour
 	{
 		Hiding, // Playing at the park or so really, but technically 'hidden'
 		Carried, // Grandma found me
-		AtHome // Returned to home
+		AtHome, // Returned to home
+        Grounded // At home and cannot escape
 	}
 
 	ChildState _childState;

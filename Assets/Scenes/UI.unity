@@ -1006,6 +1006,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 510554549, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481, type: 3}
+      propertyPath: childModifier
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6aa4302c7c7dc8643bfcf9f5ad21b481, type: 3}
 --- !u!1 &1619689421
@@ -1278,7 +1282,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2101132312}
   - component: {fileID: 2101132311}
-  - component: {fileID: 2101132313}
   m_Layer: 0
   m_Name: _Manager
   m_TagString: Untagged
@@ -1314,21 +1317,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2101132313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101132310}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afbd83effc2761d4ba6050dd3697a8fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canUseGrandmaSenseSkill: 0
-  hasUsedGroundingSkill: 0
-  grandmaSenseRange: 100
 --- !u!224 &1026300022426963897 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7438707894199818768, guid: 3688be8bb7cdedd478841641af4a0c8c,
@@ -1405,7 +1393,7 @@ PrefabInstance:
     - target: {fileID: 7438707894199818768, guid: 3688be8bb7cdedd478841641af4a0c8c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -63
+      value: -62.99994
       objectReference: {fileID: 0}
     - target: {fileID: 7438707894199818768, guid: 3688be8bb7cdedd478841641af4a0c8c,
         type: 3}
@@ -1451,6 +1439,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795631550360676277, guid: 3688be8bb7cdedd478841641af4a0c8c,
+        type: 3}
+      propertyPath: childModifier
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1795631550360676277, guid: 3688be8bb7cdedd478841641af4a0c8c,
+        type: 3}
+      propertyPath: changedValuePerFrame
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3688be8bb7cdedd478841641af4a0c8c, type: 3}

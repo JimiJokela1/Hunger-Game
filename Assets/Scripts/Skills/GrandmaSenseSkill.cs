@@ -13,6 +13,6 @@ public class GrandmaSenseSkill : Skill
     public override void ActivateSkill()
     {
         base.ActivateSkill();
-        SkillsHandler.skillsHandler.canUseGrandmaSenseSkill = true;      
+        SkillsHandler.skillsHandler.canUseGrandmaSenseSkill = true;
     }
 }

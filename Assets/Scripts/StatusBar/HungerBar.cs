@@ -5,6 +5,7 @@ using UnityEngine;
 public class HungerBar : StatusBar
 {
     public float hungerBonusValue;
+    public float initialDropValue;
 
     public override void Start()
     {
@@ -14,7 +15,11 @@ public class HungerBar : StatusBar
 
     public override void Update()
     {
-        base.Update();
+        if (!timerIsRunning)
+            return;
+
+        ChangeValue(ChangedValuePerFrame());
+        SetValue(currentValue, maxValue);
     }
 
     public override void ChangeValue(float changedAmount)
@@ -25,5 +30,15 @@ public class HungerBar : StatusBar
     public override void SetValue(float cur, float max)
     {
         base.SetValue(cur, max);
+    }
+
+    public float ChangedValuePerFrame()
+    {
+        var i = initialDropValue;
+        foreach (var childAtHome in ChildManager.childManager.childrenAtHome)
+        {
+            i -= childModifier;
+        }
+        return i;
     }
 }

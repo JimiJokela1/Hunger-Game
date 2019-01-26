@@ -15,10 +15,10 @@ public class StatusBar : MonoBehaviour
     [SerializeField]
     private Image sliderImg;
 
-    
 
+    public float childModifier;
     public float maxValue;
-    public float changedValuePerFrame;
+    float changedValuePerFrame;
     internal float currentValue;
 
     internal bool timerIsRunning;
