@@ -16,6 +16,7 @@ public class HomeArea : MonoBehaviour
 		{
 
 			// TODO: Return the carried children and play sounds
+            // TODO: Give a small bonus to the player --> Fill the hunger bar by x amount
 		}
 	}
 
