@@ -14,6 +14,7 @@ public class HomeArea : MonoBehaviour
 
 		if (GrandmaMovement.Instance.Properties.CarriesChild)
 		{
+
 			// TODO: Return the carried children and play sounds
 		}
 	}
