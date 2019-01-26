@@ -16,17 +16,23 @@ public class StatusBar : MonoBehaviour
     [SerializeField]
     private Image sliderImg;
 
+    
+
     public float maxValue;
     public float changedValuePerFrame;
     private float currentValue;
 
     public bool timerIsRunning;
+    public bool enableDescription;
     public bool enableTestingButton;
 
+    public GameObject description;
     public GameObject testButtonGo;
 
     void Start()
     {
+        description.SetActive(enableDescription ? true : false);
+
         testButtonGo.SetActive(enableTestingButton ? true : false);
 
         if (sliderImg != null)
@@ -59,10 +65,6 @@ public class StatusBar : MonoBehaviour
     {
         
         float value = cur / max;
-        //Mathf.Clamp(value, 0, 1);
-
-        //if (value <= 0 || cur >= maxValue)
-        //    return;
 
         //  Change the localscale on the x axis
         healthBar.localScale = new Vector3(value, healthBar.localScale.y, healthBar.localScale.z);
