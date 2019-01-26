@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 2936177139197118824}
   - component: {fileID: 2936177139197118825}
   - component: {fileID: 2909040992244521643}
+  - component: {fileID: 1037496526}
   m_Layer: 8
   m_Name: Grandma
   m_TagString: Player
@@ -215,9 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carriedChildren: []
-  grandmaStats:
-    score: 0
-    canUseGrandmaSenseSkill: 0
+  score: 0
 --- !u!50 &2936177139197118824
 Rigidbody2D:
   serializedVersion: 4
@@ -274,6 +273,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1037496526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2936177139197118820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afbd83effc2761d4ba6050dd3697a8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canUseGrandmaSenseSkill: 0
+  hasUsedGroundingSkill: 0
+  grandmaSenseRange: 10
 --- !u!1 &2951446129657724276
 GameObject:
   m_ObjectHideFlags: 0
