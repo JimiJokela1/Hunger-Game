@@ -27,7 +27,7 @@ public class HomeArea : MonoBehaviour
 			GrandmaMovement.Instance.Properties.carriedChildren.Clear();
 
             var hungerBar = FindObjectOfType<HungerBar>();
-            hungerBar.currentValue += 20;
+            hungerBar.currentValue += hungerBar.hungerBonusValue;
             hungerBar.SetValue(hungerBar.currentValue, hungerBar.maxValue);
 
 
