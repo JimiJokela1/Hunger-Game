@@ -75,8 +75,6 @@ public class GrandmaMovement : MonoBehaviour
             rb.MovePosition(rb.position + currentMovementInput * moveSpeed * Time.fixedDeltaTime);
 
             var angle = Vector2.SignedAngle(Vector2.up, currentMovementInput);
-
-            print("_______ANGLE: " + angle);
           
 
             if (angle == 0)
