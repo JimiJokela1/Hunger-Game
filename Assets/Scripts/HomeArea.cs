@@ -69,12 +69,10 @@ public class HomeArea : MonoBehaviour
 
         FindObjectOfType<GrandmaProperties>().grandmaIsAtHome = false;
 
-        // Change to different Audio environment...(?)
-
         // Hide message for bringing children home
         SpeechArea.Instance.HideText();
 
-        if(ChildManager.childManager.childrenAtHome.Count > 0)// && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
+        if(ChildManager.childManager.childrenAtHome.Count > 0)
         {
             FindObjectOfType<DisciplineBar>().timerIsRunning = true;
         }

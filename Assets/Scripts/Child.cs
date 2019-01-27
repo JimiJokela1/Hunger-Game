@@ -78,8 +78,11 @@ public class Child : MonoBehaviour
 			return;
 		}
 
-		Debug.Log("Trigger Child " + ID + " to be catched if player input is 'E'");
-		isTriggeable = true;
+        if (!GrandmaMovement.Instance.Properties.CarriesChild)
+        {
+            Debug.Log("Trigger Child " + ID + " to be catched if player input is 'E'");
+            isTriggeable = true;
+        }
 	}
 
 	void OnCollisionExit2D(Collision2D other)
