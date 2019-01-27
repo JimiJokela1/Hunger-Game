@@ -9,6 +9,9 @@ public class ClueTrigger : MonoBehaviour
 
     public string ClueText = "";
 
+	[Tooltip("Shows a bigger sprite next to the message box. Doesn't show any image if null")]
+	public Sprite clueSprite;
+
 	bool isTriggeable = false;
 
     public bool isANonDialogueClue;
@@ -48,7 +51,15 @@ public class ClueTrigger : MonoBehaviour
 			return;
 
 		Debug.Log(ClueText);
-		SpeechArea.Instance.ShowText(ClueText);
+
+		if(clueSprite != null)
+		{
+			SpeechArea.Instance.ShowText(ClueText, clueSprite);
+		}
+		else
+		{
+			SpeechArea.Instance.ShowText(ClueText);
+		}
 
         var audioSource = SpeechArea.Instance.GetComponent<AudioSource>();
 
