@@ -5,7 +5,7 @@ using UnityEngine;
 public class ClueTrigger : MonoBehaviour
 {
     public AudioClip[] speechSounds;    //  Assign on inspector
-    public AudioClip[] clueSounds;
+    public AudioClip clueSound;
 
     public string ClueText = "";
 
@@ -58,7 +58,7 @@ public class ClueTrigger : MonoBehaviour
         }
         else
         {
-            audioSource.clip = clueSounds[(int)Random.Range(0, clueSounds.Length - 1)];  
+            audioSource.clip = clueSound;
         }
         audioSource.Play();
     }
