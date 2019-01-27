@@ -209,6 +209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1446a7a7bf987648a664885b865aabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kidCollectingSounds:
+  - {fileID: 8300000, guid: 83f2d385a280fb8439c455eb1eae0341, type: 3}
+  - {fileID: 8300000, guid: a217a2ced81e7ff48813ad66c814884b, type: 3}
+  - {fileID: 8300000, guid: b61a68cd8546cf34591d3c0f7792225d, type: 3}
   ID: Alan
   HidingTilemap: {fileID: 138536101}
   CarriedTilemap: {fileID: 1001255653}
@@ -424,6 +428,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1446a7a7bf987648a664885b865aabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kidCollectingSounds:
+  - {fileID: 8300000, guid: 83f2d385a280fb8439c455eb1eae0341, type: 3}
+  - {fileID: 8300000, guid: a217a2ced81e7ff48813ad66c814884b, type: 3}
+  - {fileID: 8300000, guid: b61a68cd8546cf34591d3c0f7792225d, type: 3}
   ID: Agatha
   HidingTilemap: {fileID: 867106251}
   CarriedTilemap: {fileID: 2129731305}
@@ -923,6 +931,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1446a7a7bf987648a664885b865aabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kidCollectingSounds:
+  - {fileID: 8300000, guid: 83f2d385a280fb8439c455eb1eae0341, type: 3}
+  - {fileID: 8300000, guid: a217a2ced81e7ff48813ad66c814884b, type: 3}
+  - {fileID: 8300000, guid: b61a68cd8546cf34591d3c0f7792225d, type: 3}
   ID: Arthur
   HidingTilemap: {fileID: 1468416637}
   CarriedTilemap: {fileID: 1063567823}
@@ -1512,6 +1524,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1446a7a7bf987648a664885b865aabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kidCollectingSounds:
+  - {fileID: 8300000, guid: 83f2d385a280fb8439c455eb1eae0341, type: 3}
+  - {fileID: 8300000, guid: a217a2ced81e7ff48813ad66c814884b, type: 3}
+  - {fileID: 8300000, guid: b61a68cd8546cf34591d3c0f7792225d, type: 3}
   ID: Anne
   HidingTilemap: {fileID: 2661855716492708735}
   CarriedTilemap: {fileID: 2661855715702936891}
@@ -1728,6 +1744,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1446a7a7bf987648a664885b865aabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kidCollectingSounds:
+  - {fileID: 8300000, guid: 83f2d385a280fb8439c455eb1eae0341, type: 3}
+  - {fileID: 8300000, guid: a217a2ced81e7ff48813ad66c814884b, type: 3}
+  - {fileID: 8300000, guid: b61a68cd8546cf34591d3c0f7792225d, type: 3}
   ID: Armand
   HidingTilemap: {fileID: 4252441979533766015}
   CarriedTilemap: {fileID: 4374883119779378657}

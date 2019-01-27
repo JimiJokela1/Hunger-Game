@@ -179,6 +179,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: Alan? He comes by every day! His favourite ice cream flavour is watermelon.
 --- !u!1 &1271674439
 GameObject:
@@ -359,6 +375,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "That little boy Alan beat me in the village meat pie eating contest!
     I used to be the champion\u2026 No, I\u2019m not crying! *sobs*"
 --- !u!1 &1769115797
@@ -540,6 +572,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: Alan? He comes by every day! His favourite ice cream flavour is watermelon.
 --- !u!1 &459924848866919542
 GameObject:
@@ -720,6 +768,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "A box of Maid Marion Cookies\u2026 Betrayal never tasted so good"
 --- !u!1 &1311099979627972317
 GameObject:
@@ -900,6 +964,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "Ah oui\u2026 Little Arthur\u2019s always had a taste for the macabre.
     Likes talking to spirits, he said."
 --- !u!1 &1343185465834107165
@@ -1081,6 +1161,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "Anne told me not to tell you which stall she\u2019s hiding under! Oops\u2026
     Probably shouldn\u2019t have said that!"
 --- !u!1 &1898057745150575514
@@ -1262,6 +1358,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: Can you give this bouquet of roses to Armand? He bought them and then
     ran off this morning.
 --- !u!1 &4738456670609543452
@@ -1443,6 +1555,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: Agatha bought an eyepatch this morning. Are your eyes okay?
 --- !u!1 &4746144924112705519
 GameObject:
@@ -1645,6 +1773,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "Some of the flowers have been picked. Father Jean won\u2019t be happy."
 --- !u!1 &4848688658892985183
 GameObject:
@@ -1825,6 +1969,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "Someone\u2019s spilled some black nail polish on the road. Has Arthur
     passed by here?"
 --- !u!1 &4960717477985611275
@@ -2006,6 +2166,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "\u201CAdventurer Agatha\u201D is written in the mud by the slide. There
     is also a treasure map with a tree circled in it."
 --- !u!1 &5455233353938773415
@@ -2187,6 +2363,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "A pirate hat? Someone must have illegally downloaded a video game. Good
     thing this one\u2019s free!"
 --- !u!1 &6785461410096157862
@@ -2429,6 +2621,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "The children? I\u2019ve seen Anne pass by recently. She was running towards
     the market."
 --- !u!1 &6785461410996567739
@@ -2610,6 +2818,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: This bow belongs to Anne. She must have been here recently!
 --- !u!1 &6785461411123550569
 GameObject:
@@ -2821,6 +3045,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "There\u2019s something in the tree behind Jean\u2019s house. It growled
     at me when I passed by. \u201CArrrrg!\u201D"
 --- !u!1 &7201014816436256508
@@ -3002,6 +3242,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "Just an empty box of heart-shaped chocolates. The note on it is addressed
     to the cookie factory owner\u2019s daughter, Marion."
 --- !u!1 &8019107344209892605
@@ -3183,6 +3439,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "No! Even in the grave all is not lost.\u201D It\u2019s an Edgar Allan
     Poe book\u2026 Someone circled the word \u201Cgrave\u201D here."
 --- !u!1 &8712360839321230064
@@ -3364,6 +3636,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d8010a423a8e614390164dedc9966fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speechSounds:
+  - {fileID: 8300000, guid: ae863524cc738d24c823e3c99e06eaf4, type: 3}
+  - {fileID: 8300000, guid: 691781a474d337645bede0124f47f3bc, type: 3}
+  - {fileID: 8300000, guid: 24d873fd7d106b64ab5b937cd315d57a, type: 3}
+  - {fileID: 8300000, guid: 8e8575c83307f7e4186b890fcad4b714, type: 3}
+  - {fileID: 8300000, guid: 630a0d149c92e0c43971fa68495018f3, type: 3}
+  - {fileID: 8300000, guid: 6876bdf3e7bf7124d86671855f1d40bb, type: 3}
+  - {fileID: 8300000, guid: f3bb1b33aabb3984b93fac3f60d78405, type: 3}
+  - {fileID: 8300000, guid: 9ea6b58f872f4e94ea2b74275b801bfc, type: 3}
+  - {fileID: 8300000, guid: cebb26e4ca8d4f54ca4cc3c5c801cd65, type: 3}
+  - {fileID: 8300000, guid: 0215195abd9e0394d845e15c992ea3d2, type: 3}
+  - {fileID: 8300000, guid: 65132431a28da5a42adf57013abbbdd5, type: 3}
+  - {fileID: 8300000, guid: fdd24952b4250c14ba32e05e528de490, type: 3}
+  - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
+  - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
+  - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   ClueText: "Your grand-daughter Agatha wanted some grog. I told her I don\u2019t
     sell grog to little girls. She said she\u2019s not a girl, she\u2019s a pirate
     adventurer."

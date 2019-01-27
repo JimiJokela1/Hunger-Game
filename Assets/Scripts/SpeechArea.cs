@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class SpeechArea : MonoBehaviour
-{
-
+{    
 	private static SpeechArea _instance;
 	public static SpeechArea Instance
 	{
@@ -20,8 +19,7 @@ public class SpeechArea : MonoBehaviour
 
 	private void Start()
 	{
-		// Hide in the beginning
-		HideText();
+        HideText();
 	}
 
 	public void ShowText(string text)

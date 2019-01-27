@@ -222,8 +222,8 @@ MonoBehaviour:
   healthBar: {fileID: 4750311444274262760}
   barColor: {r: 1, g: 0.0141509175, b: 0.0141509175, a: 1}
   sliderImg: {fileID: 3723666927507950529}
+  childModifier: -0.1
   maxValue: 100
-  changedValuePerFrame: -0.1
   enableDescription: 1
   enableTestingButton: 0
   description: {fileID: 8430836483308839251}

@@ -46,7 +46,8 @@ public class HomeArea : MonoBehaviour
 			}
 			SpeechArea.Instance.ShowText(message);
 
-            // TODO:  and play sounds
+            if (ChildManager.childManager.childrenAtHome.Count >= 5)
+                FindObjectOfType<LevelManager>().LoadLevel("Win");
         }
 
         //  If there are children in the house, set the discipline to Max
@@ -68,12 +69,10 @@ public class HomeArea : MonoBehaviour
 
         FindObjectOfType<GrandmaProperties>().grandmaIsAtHome = false;
 
-        // Change to different Audio environment...(?)
-
         // Hide message for bringing children home
         SpeechArea.Instance.HideText();
 
-        if(ChildManager.childManager.childrenAtHome.Count > 0)// && !SkillsHandler.skillsHandler.hasUsedGroundingSkill)
+        if(ChildManager.childManager.childrenAtHome.Count > 0)
         {
             FindObjectOfType<DisciplineBar>().timerIsRunning = true;
         }

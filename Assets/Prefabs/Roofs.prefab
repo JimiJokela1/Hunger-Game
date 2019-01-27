@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 7075362876956572294}
   - component: {fileID: 7075362876956572291}
   - component: {fileID: 7075362876956572288}
+  - component: {fileID: 923800405}
   m_Layer: 0
   m_Name: Church Roof
   m_TagString: Untagged
@@ -848,6 +849,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   environmentRoof: {fileID: 7075362876956572294}
+--- !u!114 &923800405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075362876956572292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb1b6976f9d4d74b8d87f8ef4842a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 2b0b244a81167aa4dbc7119c8e220485, type: 3}
+  audioType: 0
 --- !u!1 &7075362876988078285
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +876,7 @@ GameObject:
   - component: {fileID: 7075362876988078281}
   - component: {fileID: 7075362876988078286}
   - component: {fileID: 7075362876988078287}
+  - component: {fileID: 7075362877565469024}
   m_Layer: 0
   m_Name: Tavern Roof
   m_TagString: Untagged
@@ -1649,6 +1665,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   environmentRoof: {fileID: 7075362876988078281}
+--- !u!114 &7075362877565469024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075362876988078285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb1b6976f9d4d74b8d87f8ef4842a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 51af82d2c2fb9f04aadc5352dcc1e532, type: 3}
+  audioType: 1
 --- !u!1 &7075362877359097121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,7 +1729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7075362877444217974
 Transform:
   m_ObjectHideFlags: 0
@@ -1864,6 +1894,7 @@ GameObject:
   - component: {fileID: 7075362878013408662}
   - component: {fileID: 7075362878013408663}
   - component: {fileID: 7075362878013408660}
+  - component: {fileID: 7075362877565469025}
   m_Layer: 0
   m_Name: Factory Roof
   m_TagString: Untagged
@@ -2589,3 +2620,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   environmentRoof: {fileID: 7075362878013408662}
+--- !u!114 &7075362877565469025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7075362878013408666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb1b6976f9d4d74b8d87f8ef4842a3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 39d8d734cb81ba941b1df917d908b6dc, type: 3}
+  audioType: 1
