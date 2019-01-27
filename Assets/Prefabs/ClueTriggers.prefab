@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 650428173}
   - component: {fileID: 650428172}
   - component: {fileID: 582979213}
+  - component: {fileID: 513555526675844943}
   m_Layer: 0
   m_Name: Alan Clue 3
   m_TagString: Untagged
@@ -212,6 +213,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &513555526675844943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650428170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1271674439
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +239,7 @@ GameObject:
   - component: {fileID: 1271674442}
   - component: {fileID: 1271674441}
   - component: {fileID: 1102173922}
+  - component: {fileID: 466230863715019592}
   m_Layer: 0
   m_Name: Alan Clue 2
   m_TagString: Untagged
@@ -425,6 +439,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &466230863715019592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271674439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1769115797
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +465,7 @@ GameObject:
   - component: {fileID: 1769115800}
   - component: {fileID: 1769115799}
   - component: {fileID: 904968149}
+  - component: {fileID: 1145035523046264032}
   m_Layer: 0
   m_Name: Alan Clue 1
   m_TagString: Untagged
@@ -637,6 +664,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1145035523046264032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769115797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &459924848866919542
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +690,7 @@ GameObject:
   - component: {fileID: 9076990414328002181}
   - component: {fileID: 4629747488157020169}
   - component: {fileID: 1706867505}
+  - component: {fileID: 1249507089568172722}
   m_Layer: 0
   m_Name: Armand Clue 4
   m_TagString: Untagged
@@ -725,8 +765,8 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -20, y: -23, z: 0}
-  m_Size: {x: 71, y: 25, z: 1}
+  m_Origin: {x: -22, y: -23, z: 0}
+  m_Size: {x: 73, y: 25, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -849,6 +889,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1249507089568172722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459924848866919542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1311099979627972317
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +915,7 @@ GameObject:
   - component: {fileID: 905194958123962699}
   - component: {fileID: 1516636691645110563}
   - component: {fileID: 519748337}
+  - component: {fileID: 2859500784353474105}
   m_Layer: 0
   m_Name: Arthur Clue 3
   m_TagString: Untagged
@@ -1062,6 +1115,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2859500784353474105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311099979627972317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1343185465834107165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1141,7 @@ GameObject:
   - component: {fileID: 4796202653536333725}
   - component: {fileID: 7290254905472179732}
   - component: {fileID: 564732458}
+  - component: {fileID: 4091212120232567322}
   m_Layer: 0
   m_Name: Anne Clue 3
   m_TagString: Untagged
@@ -1275,6 +1341,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4091212120232567322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343185465834107165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1898057745150575514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1367,7 @@ GameObject:
   - component: {fileID: 3593714072008668883}
   - component: {fileID: 7744882317666500376}
   - component: {fileID: 729073897}
+  - component: {fileID: 5719451933530360576}
   m_Layer: 0
   m_Name: Armand Clue 2
   m_TagString: Untagged
@@ -1497,6 +1576,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5719451933530360576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898057745150575514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4738456670609543452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1602,7 @@ GameObject:
   - component: {fileID: 2347927611430880320}
   - component: {fileID: 43652098875730625}
   - component: {fileID: 1652223752}
+  - component: {fileID: 7233684868851896736}
   m_Layer: 0
   m_Name: Agatha Clue 4
   m_TagString: Untagged
@@ -1709,6 +1801,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7233684868851896736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738456670609543452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4746144924112705519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +1827,7 @@ GameObject:
   - component: {fileID: 6127228744220886554}
   - component: {fileID: 1952844374063602685}
   - component: {fileID: 978684092}
+  - component: {fileID: 4699300654607412535}
   m_Layer: 0
   m_Name: Armand Clue 3
   m_TagString: Untagged
@@ -1943,6 +2048,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4699300654607412535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4746144924112705519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4848688658892985183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +2074,7 @@ GameObject:
   - component: {fileID: 4563484401949808872}
   - component: {fileID: 7231165133769349702}
   - component: {fileID: 1694558396}
+  - component: {fileID: 3968163462961868779}
   m_Layer: 0
   m_Name: Arthur Clue 1 (nail polish spill)
   m_TagString: Untagged
@@ -2156,6 +2274,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3968163462961868779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848688658892985183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4960717477985611275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2300,7 @@ GameObject:
   - component: {fileID: 1082441018224481943}
   - component: {fileID: 1518357093998380364}
   - component: {fileID: 679816249}
+  - component: {fileID: 1646870317151057579}
   m_Layer: 0
   m_Name: Agatha Clue 1
   m_TagString: Untagged
@@ -2369,6 +2500,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1646870317151057579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4960717477985611275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5455233353938773415
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,6 +2526,7 @@ GameObject:
   - component: {fileID: 3037743343570675892}
   - component: {fileID: 2293608633771924759}
   - component: {fileID: 1172351196}
+  - component: {fileID: 487251399196123577}
   m_Layer: 0
   m_Name: Agatha Clue 5 (pirate hat)
   m_TagString: Untagged
@@ -2582,6 +2726,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &487251399196123577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5455233353938773415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6785461410096157862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,6 +2813,7 @@ GameObject:
   - component: {fileID: 6785461410806399638}
   - component: {fileID: 6785461410806399639}
   - component: {fileID: 1550087044}
+  - component: {fileID: 2206139365875376830}
   m_Layer: 0
   m_Name: Anne Clue 2
   m_TagString: Untagged
@@ -2856,6 +3013,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2206139365875376830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785461410806399637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6785461410996567739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,6 +3039,7 @@ GameObject:
   - component: {fileID: 6785461410996567733}
   - component: {fileID: 6785461410996567734}
   - component: {fileID: 56667688}
+  - component: {fileID: 8235068751922235242}
   m_Layer: 0
   m_Name: Anne Clue 1 (bow)
   m_TagString: Untagged
@@ -3068,6 +3238,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8235068751922235242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785461410996567739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6785461411123550569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,6 +3295,7 @@ GameObject:
   - component: {fileID: 5570897041542674905}
   - component: {fileID: 8156262232045313880}
   - component: {fileID: 1563995056}
+  - component: {fileID: 8642359915126191240}
   m_Layer: 0
   m_Name: Agatha Clue 2
   m_TagString: Untagged
@@ -3312,6 +3495,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8642359915126191240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810418756149830447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7201014816436256508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,6 +3521,7 @@ GameObject:
   - component: {fileID: 3360986235887627173}
   - component: {fileID: 5745481020329746869}
   - component: {fileID: 1773410200}
+  - component: {fileID: 1750731144842071563}
   m_Layer: 0
   m_Name: Armand Clue 1 (cookie box)
   m_TagString: Untagged
@@ -3525,6 +3721,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1750731144842071563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201014816436256508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8019107344209892605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,6 +3747,7 @@ GameObject:
   - component: {fileID: 6316954179293765759}
   - component: {fileID: 5680940506083516492}
   - component: {fileID: 1796750739}
+  - component: {fileID: 4319600596089341005}
   m_Layer: 0
   m_Name: Arthur Clue 2 (book)
   m_TagString: Untagged
@@ -3738,6 +3947,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4319600596089341005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019107344209892605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8712360839321230064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,6 +3973,7 @@ GameObject:
   - component: {fileID: 179858143630748459}
   - component: {fileID: 2853306773885496682}
   - component: {fileID: 409976164}
+  - component: {fileID: 8822450916220325013}
   m_Layer: 0
   m_Name: Agatha Clue 3
   m_TagString: Untagged
@@ -3941,6 +4163,18 @@ MonoBehaviour:
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
 --- !u!114 &409976164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712360839321230064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8822450916220325013
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
