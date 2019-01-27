@@ -17,6 +17,13 @@ public class SpeechArea : MonoBehaviour
 
 	public GameObject buttonObject;
 
+	private string activeText;
+
+	public bool IsTextShowing(string text)
+	{
+		return text == activeText;
+	}
+
 	private void Start()
 	{
         HideText();
@@ -26,10 +33,12 @@ public class SpeechArea : MonoBehaviour
 	{
 		speechText.text = text;
 		buttonObject.SetActive(true);
+		activeText = text;
 	}
 
 	public void HideText()
 	{
 		buttonObject.SetActive(false);
+		activeText = "";
 	}
 }

@@ -17,6 +17,11 @@ public class DisciplineBar : StatusBar
 
         ChangeValue(ChangedValuePerFrame());
         SetValue(currentValue, maxValue);
+        
+        if (currentValue <= .1f)
+        {
+            ChildManager.childManager.ReleaseChildren();
+        }
     }
 
     public override void ChangeValue(float changedAmount)
