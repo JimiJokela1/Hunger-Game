@@ -9,6 +9,8 @@ public class GrandmaProperties : MonoBehaviour
 	/// </summary>
 	public List<Child> carriedChildren;
 
+    public GameObject pressEInstruction;
+
     public int score;
 
     public bool grandmaIsAtHome;
@@ -17,6 +19,8 @@ public class GrandmaProperties : MonoBehaviour
 	private void Awake()
 	{
 		carriedChildren = new List<Child>();
+
+        pressEInstruction.SetActive(false);
     }
 
     /// <summary>
