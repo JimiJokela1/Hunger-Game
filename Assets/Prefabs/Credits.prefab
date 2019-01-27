@@ -78,8 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.22
-  m_Text: "Made with love by:\n\nErika Vennervirta\nGeorgios Riskas\nHannu Maksimainen\nJimi
-    Jokela\nTiitus Ylip\xE4\xE4\nRachel Varney"
+  m_Text: "Made with love by:\n\nErika Vennervirta\nGeorgios Riskas\nGhost\nJimi Jokela\nTiitus
+    Ylip\xE4\xE4\nRachel Varney"
 --- !u!1 &4406818406581370156
 GameObject:
   m_ObjectHideFlags: 0
