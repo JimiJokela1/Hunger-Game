@@ -95,7 +95,7 @@ public class Child : MonoBehaviour
 		Debug.Log("Trigger Child " + ID + " to non-interactive mode so it doesn't trigger even if player input is 'E'");
 		isTriggeable = false;
 
-		SpeechArea.Instance.HideText();
+        FindObjectOfType<SpeechArea>().HideText();
 	}
 
 	void PlayerInteraction()
@@ -111,9 +111,9 @@ public class Child : MonoBehaviour
 
 		GrandmaMovement.Instance.Properties.carriedChildren.Add(this);
 
-		SpeechArea.Instance.ShowText(messageWhenFound);
+        FindObjectOfType<SpeechArea>().ShowText(messageWhenFound);
 
-        var audioSource = SpeechArea.Instance.GetComponent<AudioSource>();
+        var audioSource = FindObjectOfType<SpeechArea>().GetComponent<AudioSource>();
         audioSource.clip = kidCollectingSounds[(int)Random.Range(0, kidCollectingSounds.Length - 1)];
         audioSource.Play();
     }

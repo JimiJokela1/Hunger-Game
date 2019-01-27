@@ -20,16 +20,16 @@ public class GroundingSkill : Skill
             var grandmaSource = FindObjectOfType<GrandmaMovement>().GetComponent<AudioSource>();
             grandmaSource.clip = groundedSound;
             grandmaSource.Play();
-            SpeechArea.Instance.ShowText("You’re Grounded! Now sit quietly and think about what you’ve done.");
+            FindObjectOfType<SpeechArea>().ShowText("You’re Grounded! Now sit quietly and think about what you’ve done.");
         }
     }
 
     IEnumerator ChildrenEscapedMessageTimer(string messageText)
     {
         yield return new WaitForSeconds(2);
-        if (SpeechArea.Instance.IsTextShowing(messageText))
+        if (FindObjectOfType<SpeechArea>().IsTextShowing(messageText))
         {
-            SpeechArea.Instance.HideText();
+            FindObjectOfType<SpeechArea>().HideText();
         }
     }
 

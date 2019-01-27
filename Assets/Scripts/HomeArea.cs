@@ -49,7 +49,7 @@ public class HomeArea : MonoBehaviour
 				}
 			}
 			message += ".";
-			SpeechArea.Instance.ShowText(message);
+            FindObjectOfType<SpeechArea>().ShowText(message);
 
 			if (ChildManager.childManager.childrenAtHome.Count >= 5)
 				FindObjectOfType<LevelManager>().LoadLevel("Win");
@@ -74,8 +74,8 @@ public class HomeArea : MonoBehaviour
 
 		FindObjectOfType<GrandmaProperties>().grandmaIsAtHome = false;
 
-		// Hide message for bringing children home
-		SpeechArea.Instance.HideText();
+        // Hide message for bringing children home
+        FindObjectOfType<SpeechArea>().HideText();
 
 		if (ChildManager.childManager.childrenAtHome.Count > 0)
 		{

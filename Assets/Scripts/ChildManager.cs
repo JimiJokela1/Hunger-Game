@@ -74,8 +74,8 @@ public class ChildManager : MonoBehaviour
         {
             message += " wandered off! Time to get those naughty grandkids back.";
         }
-        
-        SpeechArea.Instance.ShowText(message);
+
+        FindObjectOfType<SpeechArea>().ShowText(message);
 
         DisciplineBar disciplineBar = FindObjectOfType<DisciplineBar>();
         disciplineBar.timerIsRunning = false;
@@ -88,9 +88,9 @@ public class ChildManager : MonoBehaviour
     IEnumerator ChildrenEscapedMessageTimer(string messageText)
     {
         yield return new WaitForSeconds(childrenEscapedMessageShowTime);
-        if (SpeechArea.Instance.IsTextShowing(messageText))
+        if (FindObjectOfType<SpeechArea>().IsTextShowing(messageText))
         {
-            SpeechArea.Instance.HideText();
+            FindObjectOfType<SpeechArea>().HideText();
         }
     }
 }
