@@ -5,10 +5,13 @@ using UnityEngine;
 public class ClueTrigger : MonoBehaviour
 {
     public AudioClip[] speechSounds;    //  Assign on inspector
+    public AudioClip[] clueSounds;
 
     public string ClueText = "";
 
 	bool isTriggeable = false;
+
+    public bool isANonDialogueClue;
 
 	private void Start()
 	{
@@ -48,7 +51,15 @@ public class ClueTrigger : MonoBehaviour
 		SpeechArea.Instance.ShowText(ClueText);
 
         var audioSource = SpeechArea.Instance.GetComponent<AudioSource>();
-        audioSource.clip = speechSounds[(int)Random.Range(0, speechSounds.Length - 1)];
+
+        if (!isANonDialogueClue)
+        {
+            audioSource.clip = speechSounds[(int)Random.Range(0, speechSounds.Length - 1)];
+        }
+        else
+        {
+            audioSource.clip = clueSounds[(int)Random.Range(0, clueSounds.Length - 1)];  
+        }
         audioSource.Play();
     }
 

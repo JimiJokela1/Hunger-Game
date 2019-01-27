@@ -12,13 +12,13 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        if (audioManager)
+        if (audioManager != null)
         {
-            DestroyImmediate(this);
+            DestroyImmediate(this.gameObject);
         }
         else
         {
-            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(this.gameObject);
             audioManager = this;
         }
     }
