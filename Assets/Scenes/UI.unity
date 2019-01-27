@@ -463,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 52, y: -28.15}
+  m_AnchoredPosition: {x: 52, y: -28.150024}
   m_SizeDelta: {x: 432.2, y: 143.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1447233671
@@ -578,6 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillIsPassive: 0
+  groundedSound: {fileID: 8300000, guid: 8587bfdced7afaf42b0ad6e89ac25b75, type: 3}
 --- !u!114 &1512826268
 MonoBehaviour:
   m_ObjectHideFlags: 0
