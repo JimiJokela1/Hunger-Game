@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GroundingSkill : Skill
 {
+    public AudioClip groundedSound;
+
     public override void Start()
     {
         base.Start();
@@ -15,6 +17,9 @@ public class GroundingSkill : Skill
         if (FindObjectOfType<GrandmaProperties>().grandmaIsAtHome)
         {
             SkillsHandler.skillsHandler.GroundCollectedChildren();
+            var grandmaSource = FindObjectOfType<GrandmaMovement>().GetComponent<AudioSource>();
+            grandmaSource.clip = groundedSound;
+            grandmaSource.Play();
             SpeechArea.Instance.ShowText("You’re Grounded! Now sit quietly and think about what you’ve done.");
         }
     }

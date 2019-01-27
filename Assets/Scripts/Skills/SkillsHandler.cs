@@ -37,10 +37,10 @@ public class SkillsHandler : MonoBehaviour
 
                 if (child.GetComponent<Child>().childState == Child.ChildState.Hiding)
                 {
-                    SpeechArea.Instance.ShowText("My Grandma sense is tingling!!!");
+                    //SpeechArea.Instance.ShowText("My Grandma sense is tingling!!!");
                     FindObjectOfType<GrandmaProperties>().grandmaSenseGraphic.SetActive(true);
 
-                    Debug.Log("My Grandma sense is tingling!!!");
+                    //Debug.Log("My Grandma sense is tingling!!!");
                     //TODO: Show a visual indicator that the kid is close
                 }
                 else
@@ -55,7 +55,7 @@ public class SkillsHandler : MonoBehaviour
 
         if (Vector3.Distance(target.position, this.transform.position) > grandmaSenseRange)
         {
-            SpeechArea.Instance.HideText();
+            //SpeechArea.Instance.HideText();
             FindObjectOfType<GrandmaProperties>().grandmaSenseGraphic.SetActive(false);
             target = null;
             
