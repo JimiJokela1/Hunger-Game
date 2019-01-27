@@ -20,6 +20,11 @@ public class HungerBar : StatusBar
 
         ChangeValue(-ChangedValuePerFrame());
         SetValue(currentValue, maxValue);
+
+        if (currentValue <= .1f)
+        {
+            FindObjectOfType<LevelManager>().LoadLevel("Lose");
+        }
     }
 
     public override void ChangeValue(float changedAmount)

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ClueTrigger : MonoBehaviour
 {
-	public string ClueText = "";
+    public AudioClip[] speechSounds;    //  Assign on inspector
+
+    public string ClueText = "";
 
 	bool isTriggeable = false;
 
@@ -44,7 +46,11 @@ public class ClueTrigger : MonoBehaviour
 
 		Debug.Log(ClueText);
 		SpeechArea.Instance.ShowText(ClueText);
-	}
+
+        var audioSource = SpeechArea.Instance.GetComponent<AudioSource>();
+        audioSource.clip = speechSounds[(int)Random.Range(0, speechSounds.Length - 1)];
+        audioSource.Play();
+    }
 
 	private void Update()
 	{

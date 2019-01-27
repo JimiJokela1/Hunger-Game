@@ -5,8 +5,9 @@ using UnityEngine.Tilemaps;
 
 public class Child : MonoBehaviour
 {
+    public AudioClip[] kidCollectingSounds;    //  Assign on inspector
 
-	[Header("Name")]
+    [Header("Name")]
 	public string ID;
 
 	[Header("References to Hiding and Carried/AtHome tilemaps")]
@@ -19,8 +20,6 @@ public class Child : MonoBehaviour
 	public string messageWhenFound;
 
 	bool isTriggeable = false;
-
-    public bool childIsGrounded;
 
 	/// <summary>
 	/// Child can be hiding (normally), or can be carried by Grandma or returned to Home (waiting for escape).
@@ -110,7 +109,11 @@ public class Child : MonoBehaviour
 		GrandmaMovement.Instance.Properties.carriedChildren.Add(this);
 
 		SpeechArea.Instance.ShowText(messageWhenFound);
-	}
+
+        var audioSource = SpeechArea.Instance.GetComponent<AudioSource>();
+        audioSource.clip = kidCollectingSounds[(int)Random.Range(0, kidCollectingSounds.Length - 1)];
+        audioSource.Play();
+    }
 
 	private void Update()
 	{

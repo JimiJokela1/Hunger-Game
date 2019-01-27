@@ -46,7 +46,8 @@ public class HomeArea : MonoBehaviour
 			}
 			SpeechArea.Instance.ShowText(message);
 
-            // TODO:  and play sounds
+            if (childrenReturned.Count >= 5)
+                FindObjectOfType<LevelManager>().LoadLevel("Win");
         }
 
         //  If there are children in the house, set the discipline to Max
