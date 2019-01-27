@@ -6,20 +6,25 @@ using UnityEngine;
 public class GrandmaMovement : MonoBehaviour
 {
 
-    static GrandmaMovement _instance;
-    public static GrandmaMovement Instance
-    {
-        get
-        {
-            return _instance = _instance ?? FindObjectOfType<GrandmaMovement>();
-        }
-    }
+    public enum Directions {Up, Down, Right, Left};
+    public Directions directions;
 
-    private GrandmaProperties _properties;
-    public GrandmaProperties Properties
-    {
-        get { return _properties = _properties ?? GetComponent<GrandmaProperties>(); }
-    }
+    public bool facingRight = true;
+
+	static GrandmaMovement _instance;
+	public static GrandmaMovement Instance
+	{
+		get
+		{
+			return _instance = _instance ?? FindObjectOfType<GrandmaMovement>();
+		}
+	}
+
+	private GrandmaProperties _properties;
+	public GrandmaProperties Properties
+	{
+		get { return _properties = _properties ?? GetComponent<GrandmaProperties>(); }
+	}
 
     public float moveSpeed = 1f;
     public float jumpDistance = 3f;
@@ -69,23 +74,60 @@ public class GrandmaMovement : MonoBehaviour
             // Move without momentum
             rb.MovePosition(rb.position + currentMovementInput * moveSpeed * Time.fixedDeltaTime);
 
-            // Set move animation
-            if (animator != null)
+            var angle = Vector2.SignedAngle(Vector2.up, currentMovementInput);
+
+            print("_______ANGLE: " + angle);
+          
+
+            if (angle == 0)
+                directions = Directions.Up;
+
+            if (angle == 180)
+                directions = Directions.Down;
+
+
+            if (angle == -90)
+                directions = Directions.Right;
+
+            if (angle == 90)
+                directions = Directions.Left;
+
+
+
+            if (directions == Directions.Up)
             {
-                animator.SetBool("Moving", true);
+                animator.SetInteger("Index", 0);
             }
+            else if (directions == Directions.Down)
+            {
+                animator.SetInteger("Index", 1);
+            }
+            else if (directions == Directions.Right)
+            {
+                animator.SetInteger("Index", 2);
+            }
+            else if (directions == Directions.Left)
+            {
+                animator.SetInteger("Index", 3);
+            }
+
+            // Set move animation
+            //if (animator != null)
+            //{
+            //    animator.SetBool("Moving", true);
+            //}
 
             // Set move sound
-            if (moveAudioSource != null && !moveAudioSource.isPlaying)
-            {
-                moveAudioSource.Play();
-            }
+            //if (moveAudioSource != null && !moveAudioSource.isPlaying)
+            //{
+            //    moveAudioSource.Play();
+            //}
 
-            // Jumping, can only jump when moving
-            // if (GetJumpInput() && jumping == false)
-            // {
-            //     TryJumpOverCollider(currentMovementInput.normalized);
-            // }
+            //// Jumping, can only jump when moving
+            //if (GetJumpInput() && jumping == false)
+            //{
+            //    TryJumpOverCollider(currentMovementInput.normalized);
+            //}
         }
         else // not moving
         {
