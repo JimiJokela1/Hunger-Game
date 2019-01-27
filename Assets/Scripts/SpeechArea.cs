@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class SpeechArea : MonoBehaviour
-{    
+{
 	private static SpeechArea _instance;
 	public static SpeechArea Instance
 	{
@@ -14,6 +14,7 @@ public class SpeechArea : MonoBehaviour
 		}
 	}
 	public Text speechText;
+	public Image messageImage;
 
 	public GameObject buttonObject;
 
@@ -26,7 +27,7 @@ public class SpeechArea : MonoBehaviour
 
 	private void Start()
 	{
-        HideText();
+		HideText();
 	}
 
 	public void ShowText(string text)
@@ -34,11 +35,33 @@ public class SpeechArea : MonoBehaviour
 		speechText.text = text;
 		buttonObject.SetActive(true);
 		activeText = text;
+		if (messageImage != null)
+		{
+			messageImage.sprite = null;
+			messageImage.color = Color.clear;
+		}
+	}
+
+	public void ShowText(string text, Sprite sprite)
+	{
+		speechText.text = text;
+		buttonObject.SetActive(true);
+		activeText = text;
+		if (messageImage != null)
+		{
+			messageImage.sprite = sprite;
+			messageImage.color = Color.white;
+		}
 	}
 
 	public void HideText()
 	{
 		buttonObject.SetActive(false);
 		activeText = "";
+		if (messageImage != null)
+		{
+			messageImage.sprite = null;
+			messageImage.color = Color.clear;
+		}
 	}
 }

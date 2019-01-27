@@ -195,7 +195,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: Alan? He comes by every day! His favourite ice cream flavour is watermelon.
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &1271674439
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,8 +394,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "That little boy Alan beat me in the village meat pie eating contest!
     I used to be the champion\u2026 No, I\u2019m not crying! *sobs*"
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &1769115797
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +594,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: Alan? He comes by every day! His favourite ice cream flavour is watermelon.
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &459924848866919542
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,7 +793,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "A box of Maid Marion Cookies\u2026 Betrayal never tasted so good"
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 1
 --- !u!1 &1311099979627972317
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,8 +992,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "Ah oui\u2026 Little Arthur\u2019s always had a taste for the macabre.
     Likes talking to spirits, he said."
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &1343185465834107165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,8 +1192,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "Anne told me not to tell you which stall she\u2019s hiding under! Oops\u2026
     Probably shouldn\u2019t have said that!"
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &1898057745150575514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,8 +1392,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: Can you give this bouquet of roses to Armand? He bought them and then
     ran off this morning.
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &4738456670609543452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1592,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: Agatha bought an eyepatch this morning. Are your eyes okay?
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &4746144924112705519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,7 +1813,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "Some of the flowers have been picked. Father Jean won\u2019t be happy."
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 1
 --- !u!1 &4848688658892985183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,7 +1831,7 @@ GameObject:
   - component: {fileID: 4563484401949808872}
   - component: {fileID: 7231165133769349702}
   m_Layer: 0
-  m_Name: Arthur Clue 1
+  m_Name: Arthur Clue 1 (nail polish spill)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1833,7 +1860,7 @@ Tilemap:
   m_GameObject: {fileID: 4848688658892985183}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 32, y: -1, z: 0}
+  - first: {x: 33, y: -1, z: 0}
     second:
       m_TileIndex: 1
       m_TileSpriteIndex: 1
@@ -1847,12 +1874,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: 8a540889fd73842438b73a78d2daa1f9, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 66c3d147e73873041aaf445242a3bb9c, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -1878,7 +1905,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -4, y: -20, z: 0}
-  m_Size: {x: 37, y: 22, z: 1}
+  m_Size: {x: 38, y: 22, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1985,8 +2012,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "Someone\u2019s spilled some black nail polish on the road. Has Arthur
     passed by here?"
+  clueSprite: {fileID: 21300000, guid: 66c3d147e73873041aaf445242a3bb9c, type: 3}
+  isANonDialogueClue: 1
 --- !u!1 &4960717477985611275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,8 +2212,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "\u201CAdventurer Agatha\u201D is written in the mud by the slide. There
     is also a treasure map with a tree circled in it."
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 1
 --- !u!1 &5455233353938773415
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,7 +2231,7 @@ GameObject:
   - component: {fileID: 3037743343570675892}
   - component: {fileID: 2293608633771924759}
   m_Layer: 0
-  m_Name: Agatha Clue 5
+  m_Name: Agatha Clue 5 (pirate hat)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2241,12 +2274,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: dfe4dbfe8920600459146f7ccc775867, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 831805f5bea0ed74897beacdbe912f6c, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -2379,8 +2412,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "A pirate hat? Someone must have illegally downloaded a video game. Good
     thing this one\u2019s free!"
+  clueSprite: {fileID: 21300000, guid: 831805f5bea0ed74897beacdbe912f6c, type: 3}
+  isANonDialogueClue: 1
 --- !u!1 &6785461410096157862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2637,8 +2673,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "The children? I\u2019ve seen Anne pass by recently. She was running towards
     the market."
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &6785461410996567739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,7 +2692,7 @@ GameObject:
   - component: {fileID: 6785461410996567733}
   - component: {fileID: 6785461410996567734}
   m_Layer: 0
-  m_Name: Anne Clue 1
+  m_Name: Anne Clue 1 (bow)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2696,12 +2735,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: 3edc7294a7fd44f4dbf48aef0d59df70, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: f2a6fff2f740e13468539e1657370607, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -2834,7 +2873,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: This bow belongs to Anne. She must have been here recently!
+  clueSprite: {fileID: 21300000, guid: f2a6fff2f740e13468539e1657370607, type: 3}
+  isANonDialogueClue: 1
 --- !u!1 &6785461411123550569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3061,8 +3103,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "There\u2019s something in the tree behind Jean\u2019s house. It growled
     at me when I passed by. \u201CArrrrg!\u201D"
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
 --- !u!1 &7201014816436256508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,7 +3122,7 @@ GameObject:
   - component: {fileID: 3360986235887627173}
   - component: {fileID: 5745481020329746869}
   m_Layer: 0
-  m_Name: Armand Clue 1
+  m_Name: Armand Clue 1 (cookie box)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3114,18 +3159,18 @@ Tilemap:
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
-      m_ColliderType: 1
+      m_ColliderType: 2
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: d1e3766fc3e2b2640a89d589c9865996, type: 2}
+    m_Data: {fileID: 11400000, guid: 6670c1f5017bf784f857c527df964746, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 8743b4da5a9809d4dbd414bf2e4a7210, type: 3}
+    m_Data: {fileID: 21300000, guid: a26ce6b1888e90645b2967398d9e8253, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -3209,7 +3254,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0.03125, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -3258,8 +3303,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "Just an empty box of heart-shaped chocolates. The note on it is addressed
     to the cookie factory owner\u2019s daughter, Marion."
+  clueSprite: {fileID: 21300000, guid: a26ce6b1888e90645b2967398d9e8253, type: 3}
+  isANonDialogueClue: 1
 --- !u!1 &8019107344209892605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,7 +3322,7 @@ GameObject:
   - component: {fileID: 6316954179293765759}
   - component: {fileID: 5680940506083516492}
   m_Layer: 0
-  m_Name: Arthur Clue 2
+  m_Name: Arthur Clue 2 (book)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3455,8 +3503,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
-  ClueText: "No! Even in the grave all is not lost.\u201D It\u2019s an Edgar Allan
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
+  ClueText: "\"No! Even in the grave all is not lost.\u201D It\u2019s an Edgar Allan
     Poe book\u2026 Someone circled the word \u201Cgrave\u201D here."
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 1
 --- !u!1 &8712360839321230064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3652,6 +3703,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2ba03c172e0aaec4bba01f7424513570, type: 3}
   - {fileID: 8300000, guid: f3970853d6408bc45a696e67de97a42d, type: 3}
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
+  clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "Your grand-daughter Agatha wanted some grog. I told her I don\u2019t
     sell grog to little girls. She said she\u2019s not a girl, she\u2019s a pirate
     adventurer."
+  clueSprite: {fileID: 0}
+  isANonDialogueClue: 0
