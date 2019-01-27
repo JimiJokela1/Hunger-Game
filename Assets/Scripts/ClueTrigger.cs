@@ -42,7 +42,7 @@ public class ClueTrigger : MonoBehaviour
 		isTriggeable = false;
 
 		// Hide whatever clue was shown when exiting the area
-		SpeechArea.Instance.HideText();
+		FindObjectOfType<SpeechArea>().HideText();
 	}
 
 	void PlayerInteraction()
@@ -54,14 +54,14 @@ public class ClueTrigger : MonoBehaviour
 
 		if(clueSprite != null)
 		{
-			SpeechArea.Instance.ShowText(ClueText, clueSprite);
+            FindObjectOfType<SpeechArea>().ShowText(ClueText, clueSprite);
 		}
 		else
 		{
-			SpeechArea.Instance.ShowText(ClueText);
+            FindObjectOfType<SpeechArea>().ShowText(ClueText);
 		}
 
-        var audioSource = SpeechArea.Instance.GetComponent<AudioSource>();
+        var audioSource = FindObjectOfType<SpeechArea>().GetComponent<AudioSource>();
 
         if (!isANonDialogueClue)
         {

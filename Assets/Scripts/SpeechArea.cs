@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class SpeechArea : MonoBehaviour
 {
-	private static SpeechArea _instance;
-	public static SpeechArea Instance
-	{
-		get
-		{
-			return _instance = _instance ?? FindObjectOfType<SpeechArea>();
-		}
-	}
+	//private static SpeechArea _instance;
+	//public static SpeechArea Instance
+	//{
+	//	get
+	//	{
+	//		return _instance = _instance ?? FindObjectOfType<SpeechArea>();
+	//	}
+	//}
 	public Text speechText;
 	public Image messageImage;
 
