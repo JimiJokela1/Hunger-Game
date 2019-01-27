@@ -1,0 +1,1028 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5770908641335572590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3882715656740030329}
+  m_Layer: 0
+  m_Name: NPCs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3882715656740030329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5770908641335572590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7330719313364730648}
+  - {fileID: 8257193797946843196}
+  - {fileID: 8257193797135158092}
+  - {fileID: 8257193798245539633}
+  - {fileID: 8257193797732646732}
+  - {fileID: 8257193799000063867}
+  - {fileID: 8257193797507617196}
+  - {fileID: 8257193797641527679}
+  - {fileID: 8257193798245281085}
+  - {fileID: 8257193798857782043}
+  - {fileID: 8257193796913647673}
+  - {fileID: 8257193797733305673}
+  - {fileID: 8257193796994823031}
+  - {fileID: 8257193798718339759}
+  - {fileID: 8257193797750056930}
+  - {fileID: 8257193797548646335}
+  - {fileID: 8257193798690004933}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7662972573413905827
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 48c0cf350bfdc1849abbb2461848cf29,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: I hope it rains soon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.4375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193796913647673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972573413905827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972573450385133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c180eb0e921b36c4f9ab083371738912,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: Father Jean, the village priest, lives here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193796994823031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972573450385133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972573595045590
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a193085b838bd445a34f9dc485d0528,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: "Nobody ever comes down here. I haven\u2019t seen anyone in ages\u2026
+        Go and meet people? I can\u2019t, my therapist says I\u2019m an introvert."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3125
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797135158092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972573595045590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972573651470547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c180eb0e921b36c4f9ab083371738912,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: Maid Marion Cookie Factory... My arch nemesis.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797733305673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972573651470547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972573651892950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 48c0cf350bfdc1849abbb2461848cf29,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: '*hic*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.4375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797732646732 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972573651892950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972573768884856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c180eb0e921b36c4f9ab083371738912,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: Mr and Mrs Dupond
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797750056930 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972573768884856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574011053110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 57a614953097afe4383be02d7a8e56c1,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: "I\u2019m not homeless, this whole village is my home."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797507617196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574011053110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574104508965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8743b4da5a9809d4dbd414bf2e4a7210,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: "There\u2019s nothing here."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0625
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797548646335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574104508965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574162625765
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 57a614953097afe4383be02d7a8e56c1,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: These prices are outrageous!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797641527679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574162625765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574229764779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 48c0cf350bfdc1849abbb2461848cf29,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: " \u201CFeel free to look around. Reading is for everyone!\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.4375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193798245539633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574229764779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574230030503
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a193085b838bd445a34f9dc485d0528,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: "l have deep inner monologues and a lot of personality. On weekends I
+        do stand-up comedy. I\u2019ve just been programmed to say this one line."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3125
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193798245281085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574230030503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574511621542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62e0f8e3a64dabe4293b92e6f0904a37,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: Sunny day today!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193797946843196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574511621542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574808454785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 29.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a193085b838bd445a34f9dc485d0528,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: "It\u2019s \u201Cpain au chocolat\u201D, not \u201Cchocolatine\u201D."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3125
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193798857782043 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574808454785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972574951389921
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62e0f8e3a64dabe4293b92e6f0904a37,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: My wife left me! She stole my prized turnips! Now I drink to forget.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193799000063867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972574951389921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972575216533301
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c180eb0e921b36c4f9ab083371738912,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: Library.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193798718339759 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972575216533301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7662972575244655199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674581, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8743b4da5a9809d4dbd414bf2e4a7210,
+        type: 3}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: '*It''s a swing, ignore the barrel* I used to like these before the arthritis
+        kicked in.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674584, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0625
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &8257193798690004933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 7662972575244655199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9040088491841422978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3882715656740030329}
+    m_Modifications:
+    - target: {fileID: 1787694813466674580, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787694813466674587, guid: 5d6834b3097c2ea4c87c6652770256f1,
+        type: 3}
+      propertyPath: ClueText
+      value: "Mr Dupont and Mrs Dupond\u2026 I always mix up their mail."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d6834b3097c2ea4c87c6652770256f1, type: 3}
+--- !u!4 &7330719313364730648 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1787694813466674586, guid: 5d6834b3097c2ea4c87c6652770256f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 9040088491841422978}
+  m_PrefabAsset: {fileID: 0}
