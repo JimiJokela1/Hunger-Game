@@ -46,7 +46,7 @@ public class HomeArea : MonoBehaviour
 			}
 			SpeechArea.Instance.ShowText(message);
 
-            if (childrenReturned.Count >= 5)
+            if (ChildManager.childManager.childrenAtHome.Count >= 5)
                 FindObjectOfType<LevelManager>().LoadLevel("Win");
         }
 
