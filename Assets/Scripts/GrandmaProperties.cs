@@ -15,12 +15,16 @@ public class GrandmaProperties : MonoBehaviour
 
     public bool grandmaIsAtHome;
 
+    public GameObject grandmaSenseGraphic;
+
 
 	private void Awake()
 	{
 		carriedChildren = new List<Child>();
 
         pressEInstruction.SetActive(false);
+
+        grandmaSenseGraphic.SetActive(false);
     }
 
     /// <summary>
