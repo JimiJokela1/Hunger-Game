@@ -25,6 +25,11 @@ public class DisciplineBar : StatusBar
 		ChangeValue(ChangedValuePerFrame());
 		SetValue(currentValue, maxValue);
 
+		if (currentValue <= .1f)
+		{
+			ChildManager.childManager.ReleaseChildren();
+		}
+
 		// Show how many children have been grounded
 		if (SkillsHandler.skillsHandler.hasUsedGroundingSkill)
 		{
