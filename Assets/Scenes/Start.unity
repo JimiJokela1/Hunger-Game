@@ -977,7 +977,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'How to play:
 
-
         > Use WASD keys to move
 
         > Use ''E'' to interact with objects
@@ -990,7 +989,9 @@ PrefabInstance:
 
         by pressing the whip icon.
 
-        They will stay put at home for a while.'
+        They will stay put at home for a while.
+
+        > You can quit by pressing Esc'
       objectReference: {fileID: 0}
     - target: {fileID: 4406818406553387238, guid: 0f208fdea320b834db9cda60e29ad5dd,
         type: 3}

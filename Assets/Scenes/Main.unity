@@ -971,6 +971,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7075362877565469024, guid: 6db27862ef0fb924d83aa09a930b3d81,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c936751e55231e4787bed67ea7ac1e7, type: 3}
+    - target: {fileID: 7075362878013408657, guid: 6db27862ef0fb924d83aa09a930b3d81,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[53].second.m_TileSpriteIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075362878013408657, guid: 6db27862ef0fb924d83aa09a930b3d81,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[0].m_RefCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075362878013408657, guid: 6db27862ef0fb924d83aa09a930b3d81,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[0].m_Data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075362878013408657, guid: 6db27862ef0fb924d83aa09a930b3d81,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[3].m_RefCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7075362878013408657, guid: 6db27862ef0fb924d83aa09a930b3d81,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[3].m_Data
+      value: 
+      objectReference: {fileID: 21302370, guid: 42d43e4c137a9b946952fb4e7658f5a0,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6db27862ef0fb924d83aa09a930b3d81, type: 3}
 --- !u!1001 &8920459719610075971
