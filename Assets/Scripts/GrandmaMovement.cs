@@ -6,20 +6,20 @@ using UnityEngine;
 public class GrandmaMovement : MonoBehaviour
 {
 
-	static GrandmaMovement _instance;
-	public static GrandmaMovement Instance
-	{
-		get
-		{
-			return _instance = _instance ?? FindObjectOfType<GrandmaMovement>();
-		}
-	}
+    static GrandmaMovement _instance;
+    public static GrandmaMovement Instance
+    {
+        get
+        {
+            return _instance = _instance ?? FindObjectOfType<GrandmaMovement>();
+        }
+    }
 
-	private GrandmaProperties _properties;
-	public GrandmaProperties Properties
-	{
-		get { return _properties = _properties ?? GetComponent<GrandmaProperties>(); }
-	}
+    private GrandmaProperties _properties;
+    public GrandmaProperties Properties
+    {
+        get { return _properties = _properties ?? GetComponent<GrandmaProperties>(); }
+    }
 
     public float moveSpeed = 1f;
     public float jumpDistance = 3f;
@@ -82,10 +82,10 @@ public class GrandmaMovement : MonoBehaviour
             }
 
             // Jumping, can only jump when moving
-            if (GetJumpInput() && jumping == false)
-            {
-                TryJumpOverCollider(currentMovementInput.normalized);
-            }
+            // if (GetJumpInput() && jumping == false)
+            // {
+            //     TryJumpOverCollider(currentMovementInput.normalized);
+            // }
         }
         else // not moving
         {
