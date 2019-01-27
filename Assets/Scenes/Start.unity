@@ -952,6 +952,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4406818408376306099, guid: 0f208fdea320b834db9cda60e29ad5dd,
+        type: 3}
+      propertyPath: m_Name
+      value: TutoText
+      objectReference: {fileID: 0}
     - target: {fileID: 4406818406553387239, guid: 0f208fdea320b834db9cda60e29ad5dd,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -960,7 +965,12 @@ PrefabInstance:
     - target: {fileID: 4406818406553387239, guid: 0f208fdea320b834db9cda60e29ad5dd,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 217
+      value: 186.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406818406553387239, guid: 0f208fdea320b834db9cda60e29ad5dd,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 93.5
       objectReference: {fileID: 0}
     - target: {fileID: 4406818406553387238, guid: 0f208fdea320b834db9cda60e29ad5dd,
         type: 3}
@@ -972,7 +982,13 @@ PrefabInstance:
 
         > Use ''E'' to interact with objects
 
-        > You can ground your grandkids.
+        > Your grandma sense will tell you when
+
+        one of your kids is nearby.
+
+        > You can ground your grandkids
+
+        by pressing the whip icon.
 
         They will stay put at home for a while.'
       objectReference: {fileID: 0}
