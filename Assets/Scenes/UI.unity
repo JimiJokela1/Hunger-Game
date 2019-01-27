@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.19607843, b: 0.5019608, a: 0.78431374}
+  m_Color: {r: 0.06074225, g: 0.09229192, b: 0.14150941, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1307,6 +1307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   childrenAtHome: []
   allChildren: []
+  childrenEscapedMessageShowTime: 3
 --- !u!4 &2101132312
 Transform:
   m_ObjectHideFlags: 0
