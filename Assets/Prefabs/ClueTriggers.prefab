@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 650428174}
   - component: {fileID: 650428173}
   - component: {fileID: 650428172}
+  - component: {fileID: 582979213}
   m_Layer: 0
   m_Name: Alan Clue 3
   m_TagString: Untagged
@@ -199,6 +200,18 @@ MonoBehaviour:
   ClueText: Alan? He comes by every day! His favourite ice cream flavour is watermelon.
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &582979213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650428170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1271674439
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +225,7 @@ GameObject:
   - component: {fileID: 1271674443}
   - component: {fileID: 1271674442}
   - component: {fileID: 1271674441}
+  - component: {fileID: 1102173922}
   m_Layer: 0
   m_Name: Alan Clue 2
   m_TagString: Untagged
@@ -256,12 +270,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: bbfb679af39fccf4f82155bd0a447568, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 62e0f8e3a64dabe4293b92e6f0904a37, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -345,7 +359,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.25, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -399,6 +413,18 @@ MonoBehaviour:
     I used to be the champion\u2026 No, I\u2019m not crying! *sobs*"
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &1102173922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271674439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1769115797
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +438,7 @@ GameObject:
   - component: {fileID: 1769115801}
   - component: {fileID: 1769115800}
   - component: {fileID: 1769115799}
+  - component: {fileID: 904968149}
   m_Layer: 0
   m_Name: Alan Clue 1
   m_TagString: Untagged
@@ -456,12 +483,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: bbfb679af39fccf4f82155bd0a447568, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 62e0f8e3a64dabe4293b92e6f0904a37, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -545,7 +572,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.25, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -598,6 +625,18 @@ MonoBehaviour:
   ClueText: Alan? He comes by every day! His favourite ice cream flavour is watermelon.
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &904968149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769115797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &459924848866919542
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +650,7 @@ GameObject:
   - component: {fileID: 8895745401008952856}
   - component: {fileID: 9076990414328002181}
   - component: {fileID: 4629747488157020169}
+  - component: {fileID: 1706867505}
   m_Layer: 0
   m_Name: Armand Clue 4
   m_TagString: Untagged
@@ -795,8 +835,20 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 794ea3f709b4ac8459b66e64e0b3205d, type: 3}
   clueSound: {fileID: 8300000, guid: 1005007dd971d1b44aec1286ce13f692, type: 3}
   ClueText: "A box of Maid Marion Cookies\u2026 Betrayal never tasted so good"
-  clueSprite: {fileID: 0}
+  clueSprite: {fileID: 21300000, guid: a26ce6b1888e90645b2967398d9e8253, type: 3}
   isANonDialogueClue: 1
+--- !u!114 &1706867505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459924848866919542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1311099979627972317
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,6 +862,7 @@ GameObject:
   - component: {fileID: 7888184291309924842}
   - component: {fileID: 905194958123962699}
   - component: {fileID: 1516636691645110563}
+  - component: {fileID: 519748337}
   m_Layer: 0
   m_Name: Arthur Clue 3
   m_TagString: Untagged
@@ -848,18 +901,18 @@ Tilemap:
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
-      m_ColliderType: 2
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: d1bd455fe8e27fb48b081cfc658d8c28, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 5a193085b838bd445a34f9dc485d0528, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -943,7 +996,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.15625, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -997,6 +1050,18 @@ MonoBehaviour:
     Likes talking to spirits, he said."
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &519748337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311099979627972317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1343185465834107165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,6 +1075,7 @@ GameObject:
   - component: {fileID: 4338787789870239233}
   - component: {fileID: 4796202653536333725}
   - component: {fileID: 7290254905472179732}
+  - component: {fileID: 564732458}
   m_Layer: 0
   m_Name: Anne Clue 3
   m_TagString: Untagged
@@ -1048,18 +1114,18 @@ Tilemap:
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
-      m_ColliderType: 2
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: d1bd455fe8e27fb48b081cfc658d8c28, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 5a193085b838bd445a34f9dc485d0528, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -1143,7 +1209,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.15625, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -1197,6 +1263,18 @@ MonoBehaviour:
     Probably shouldn\u2019t have said that!"
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &564732458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343185465834107165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1898057745150575514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1288,7 @@ GameObject:
   - component: {fileID: 8416146438313357135}
   - component: {fileID: 3593714072008668883}
   - component: {fileID: 7744882317666500376}
+  - component: {fileID: 729073897}
   m_Layer: 0
   m_Name: Armand Clue 2
   m_TagString: Untagged
@@ -1249,19 +1328,28 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 2
+  - first: {x: 50, y: 1, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: 6670c1f5017bf784f857c527df964746, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: bbfb679af39fccf4f82155bd0a447568, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: a26ce6b1888e90645b2967398d9e8253, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 62e0f8e3a64dabe4293b92e6f0904a37, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data:
       e00: 1
       e01: 0
@@ -1280,12 +1368,12 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -20, y: -26, z: 0}
-  m_Size: {x: 67, y: 28, z: 1}
+  m_Size: {x: 71, y: 28, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1343,7 +1431,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.25, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -1397,6 +1485,18 @@ MonoBehaviour:
     ran off this morning.
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &729073897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898057745150575514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4738456670609543452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,6 +1510,7 @@ GameObject:
   - component: {fileID: 4059920620877650891}
   - component: {fileID: 2347927611430880320}
   - component: {fileID: 43652098875730625}
+  - component: {fileID: 1652223752}
   m_Layer: 0
   m_Name: Agatha Clue 4
   m_TagString: Untagged
@@ -1596,6 +1697,18 @@ MonoBehaviour:
   ClueText: Agatha bought an eyepatch this morning. Are your eyes okay?
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &1652223752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4738456670609543452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4746144924112705519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,6 +1722,7 @@ GameObject:
   - component: {fileID: 2088120722734809106}
   - component: {fileID: 6127228744220886554}
   - component: {fileID: 1952844374063602685}
+  - component: {fileID: 978684092}
   m_Layer: 0
   m_Name: Armand Clue 3
   m_TagString: Untagged
@@ -1817,6 +1931,18 @@ MonoBehaviour:
   ClueText: "Some of the flowers have been picked. Father Jean won\u2019t be happy."
   clueSprite: {fileID: 0}
   isANonDialogueClue: 1
+--- !u!114 &978684092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4746144924112705519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4848688658892985183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,6 +1956,7 @@ GameObject:
   - component: {fileID: 5708025187982774066}
   - component: {fileID: 4563484401949808872}
   - component: {fileID: 7231165133769349702}
+  - component: {fileID: 1694558396}
   m_Layer: 0
   m_Name: Arthur Clue 1 (nail polish spill)
   m_TagString: Untagged
@@ -2017,6 +2144,18 @@ MonoBehaviour:
     passed by here?"
   clueSprite: {fileID: 21300000, guid: 66c3d147e73873041aaf445242a3bb9c, type: 3}
   isANonDialogueClue: 1
+--- !u!114 &1694558396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848688658892985183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4960717477985611275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,6 +2169,7 @@ GameObject:
   - component: {fileID: 9030464585057416022}
   - component: {fileID: 1082441018224481943}
   - component: {fileID: 1518357093998380364}
+  - component: {fileID: 679816249}
   m_Layer: 0
   m_Name: Agatha Clue 1
   m_TagString: Untagged
@@ -2074,12 +2214,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: 56f15cd306e230443a4a05fe24611573, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: ad92e53dd0a324047a463ea63e6b72dd, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -2217,6 +2357,18 @@ MonoBehaviour:
     is also a treasure map with a tree circled in it."
   clueSprite: {fileID: 0}
   isANonDialogueClue: 1
+--- !u!114 &679816249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4960717477985611275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5455233353938773415
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2382,7 @@ GameObject:
   - component: {fileID: 8157087425650800149}
   - component: {fileID: 3037743343570675892}
   - component: {fileID: 2293608633771924759}
+  - component: {fileID: 1172351196}
   m_Layer: 0
   m_Name: Agatha Clue 5 (pirate hat)
   m_TagString: Untagged
@@ -2417,6 +2570,18 @@ MonoBehaviour:
     thing this one\u2019s free!"
   clueSprite: {fileID: 21300000, guid: 831805f5bea0ed74897beacdbe912f6c, type: 3}
   isANonDialogueClue: 1
+--- !u!114 &1172351196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5455233353938773415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6785461410096157862
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,6 +2656,7 @@ GameObject:
   - component: {fileID: 6785461410806399633}
   - component: {fileID: 6785461410806399638}
   - component: {fileID: 6785461410806399639}
+  - component: {fileID: 1550087044}
   m_Layer: 0
   m_Name: Anne Clue 2
   m_TagString: Untagged
@@ -2678,6 +2844,18 @@ MonoBehaviour:
     the market."
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &1550087044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785461410806399637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6785461410996567739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,6 +2869,7 @@ GameObject:
   - component: {fileID: 6785461410996567732}
   - component: {fileID: 6785461410996567733}
   - component: {fileID: 6785461410996567734}
+  - component: {fileID: 56667688}
   m_Layer: 0
   m_Name: Anne Clue 1 (bow)
   m_TagString: Untagged
@@ -2877,6 +3056,18 @@ MonoBehaviour:
   ClueText: This bow belongs to Anne. She must have been here recently!
   clueSprite: {fileID: 21300000, guid: f2a6fff2f740e13468539e1657370607, type: 3}
   isANonDialogueClue: 1
+--- !u!114 &56667688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785461410996567739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6785461411123550569
 GameObject:
   m_ObjectHideFlags: 0
@@ -2921,6 +3112,7 @@ GameObject:
   - component: {fileID: 5452308562723639391}
   - component: {fileID: 5570897041542674905}
   - component: {fileID: 8156262232045313880}
+  - component: {fileID: 1563995056}
   m_Layer: 0
   m_Name: Agatha Clue 2
   m_TagString: Untagged
@@ -3108,6 +3300,18 @@ MonoBehaviour:
     at me when I passed by. \u201CArrrrg!\u201D"
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &1563995056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810418756149830447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7201014816436256508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,6 +3325,7 @@ GameObject:
   - component: {fileID: 3427166600772046665}
   - component: {fileID: 3360986235887627173}
   - component: {fileID: 5745481020329746869}
+  - component: {fileID: 1773410200}
   m_Layer: 0
   m_Name: Armand Clue 1 (cookie box)
   m_TagString: Untagged
@@ -3308,6 +3513,18 @@ MonoBehaviour:
     to the cookie factory owner\u2019s daughter, Marion."
   clueSprite: {fileID: 21300000, guid: a26ce6b1888e90645b2967398d9e8253, type: 3}
   isANonDialogueClue: 1
+--- !u!114 &1773410200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201014816436256508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8019107344209892605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3538,7 @@ GameObject:
   - component: {fileID: 5647478895254811607}
   - component: {fileID: 6316954179293765759}
   - component: {fileID: 5680940506083516492}
+  - component: {fileID: 1796750739}
   m_Layer: 0
   m_Name: Arthur Clue 2 (book)
   m_TagString: Untagged
@@ -3365,12 +3583,12 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: 9223fdf02d43aec499101014b0a24541, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: c180eb0e921b36c4f9ab083371738912, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -3508,6 +3726,18 @@ MonoBehaviour:
     Poe book\u2026 Someone circled the word \u201Cgrave\u201D here."
   clueSprite: {fileID: 0}
   isANonDialogueClue: 1
+--- !u!114 &1796750739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019107344209892605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8712360839321230064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3521,6 +3751,7 @@ GameObject:
   - component: {fileID: 2093187576128477325}
   - component: {fileID: 179858143630748459}
   - component: {fileID: 2853306773885496682}
+  - component: {fileID: 409976164}
   m_Layer: 0
   m_Name: Agatha Clue 3
   m_TagString: Untagged
@@ -3559,18 +3790,18 @@ Tilemap:
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
-      m_ColliderType: 2
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ebd5fa353b1ccf94e85d5ff8d4ee4d3f, type: 2}
+    m_Data: {fileID: 11400000, guid: d1bd455fe8e27fb48b081cfc658d8c28, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 76f42124db337a04395950ee12553028, type: 3}
+    m_Data: {fileID: 21300000, guid: 5a193085b838bd445a34f9dc485d0528, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -3654,7 +3885,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.15625, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -3709,3 +3940,15 @@ MonoBehaviour:
     adventurer."
   clueSprite: {fileID: 0}
   isANonDialogueClue: 0
+--- !u!114 &409976164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712360839321230064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25be7cee75b1724ebdec49101484d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
